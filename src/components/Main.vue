@@ -389,10 +389,13 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "Main"
-};
+
+<script lang="ts">
+import Vue from 'vue';
+
+export default Vue.extend({
+  name: 'main',
+});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
