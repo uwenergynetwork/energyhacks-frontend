@@ -70,10 +70,12 @@
 
 
 
-<script>
-export default {
-  name: "Main"
-};
+<script lang="ts">
+import Vue from 'vue';
+
+export default Vue.extend({
+  name: 'new',
+});
 </script>
 
 
