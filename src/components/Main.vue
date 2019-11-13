@@ -45,7 +45,7 @@
         </div>
         <h1 id="subtitle" class="d-none d-md-block text-center big-title">EnergyHacks</h1>
         <p class="subheading mb-0 text-center">UNIVERSITY OF WATERLOO</p>
-        <p class="subheading text-center">JUNE 1-2, 2019</p>
+        <p class="subheading text-center">May 23-24, 2020</p>
         <h4 class="text-center">Sustainability Problems. Forward Thinking. Powerful Solutions.</h4>
         <div class="col-12 m-0 my-4 text-center">
           <img
@@ -171,7 +171,7 @@
 
           <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
             <div class="col-12 my-auto p-0 row mx-0">
-              <h2 class="section-title col-12">Previous sponsors</h2>
+              <h2 class="section-title col-12">Previous Sponsors</h2>
               <div class="col-12 my-auto mx-auto row m-2">
                 <div class="col-xl-10 col-lg-9 col-sm-10 col-10 p-1 my-auto mx-auto">
                   <a href="https://beic.ca" target="_blank">
@@ -254,7 +254,7 @@
 
           <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
             <div class="col-12 my-auto p-0 row mx-0">
-              <h2 class="section-title col-12">Partnering with</h2>
+              <h2 class="section-title col-12">Previous Partners</h2>
               <div class="row mx-autocol-12">
                 <div class="col-xl-5 col-lg-7 col-sm-5 col-10 p-4 my-auto mx-auto">
                   <a href="https://mlh.io/" target="_blank">
@@ -355,7 +355,7 @@
           <br />
 
           <div class="row col-12 m-0 p-0 d-flex justify-content-between my-4">
-            <h2 class="section-title">Previous Year Photo Gallery</h2>
+            <h2 class="section-title">EnergyHacks 2019</h2>
             <b-carousel
               id="carousel-fade"
               fade
