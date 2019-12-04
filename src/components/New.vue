@@ -1,24 +1,30 @@
 <template>
-    <div id="page" class="pt-5 pl-4">
+    <div id="page" class="pt-5 mx-0">
         <div class="col-12 pb-5 row mx-0">
-            <h1 style="color: white;" class="col-12"> EnergyHacks </h1>
-            <h2 style="color: white;" class="col-12 pb-1"> University of Waterloo · June 1 - 2, 2019 </h2>
-            <h6 style="color: white;" class="col-12"> Sustainability problems. </h6>
-            <h6 style="color: white;" class="col-12"> Forwarding thinking. </h6>
-            <h6 style="color: white;" class="col-12"> Powerful solutions. </h6>
-        </div>
-        <div class="col-12 pt-5 pb-3 row mx-0">
-            <div style="color: white; font-weight: bold;" class="col-md-5 col-sm-12"> Subscribe to our mailing list to receive important announcements!</div>
-            <div class="w-100 d-none d-md-block"></div>
-        </div>
-        <div class="col-12 row pb-5 mx-0">
-            <div class="col-sm-12 col-md-4 input-group">
-                <input type="text" class="form-control email" placeholder="Enter your email address" aria-label="Email address">
+            <div class="col-md-6 col-sm-12">
+                <h1 style="color: white;" class="col-sm-12"> EnergyHacks </h1>
+                <h2 style="color: white;" class="col-sm-12 pb-1"> University of Waterloo · June 1 - 2, 2019 </h2>
+                <h6 style="color: white;" class="col-sm-12"> Sustainability problems. </h6>
+                <h6 style="color: white;" class="col-sm-12"> Forwarding thinking. </h6>
+                <h6 style="color: white;" class="col-sm-12 pb-5"> Powerful solutions. </h6>
+                <div class="col-12 pt-5 pb-3 row mx-0">
+                    <div style="color: white; font-weight: bold;" class="col-sm-12"> Subscribe to our mailing list to receive important announcements!</div>
+                    <div class="w-100 d-none d-md-block"></div>
+                </div>
+                <div class="col-12 row pb-5 mx-0">
+                    <div class="col-md-9 col-sm-12 input-group">
+                    <input type="text" class="form-control email" placeholder="Enter your email address" aria-label="Email address">
+                </div>
+                <div class="col-md-3 col-sm-12 input-group">
+                    <button type="button" class="btn subscribe"><span style="color: white">Subscribe</span></button>
+                </div>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-2 input-group">
-                <button type="button" class="btn subscribe"><span style="color: white">Subscribe</span></button>
+            <div class="col-md-6 col-sm-12" style="text-align: center;">
+                <img src="../assets/img/website/island.svg" style="height:auto; width:50%">
             </div>
         </div>
+        
         <div class="col-12 pt-5 pb-5 row mx-0">
             <h2 style="color: white;" class="col-12"> An energy first hackathon </h2>
                 <div class="row col-12">
@@ -27,8 +33,8 @@
                         This hackathon is focused solely around a series of energy-related problems
                         that exist in our world today, how will you solve them?          
                     </div>
-                    <div class="col-md-6 col-sm-12" style="text-align: center"> 
-                        <img src="http://i.stack.imgur.com/yZlqh.png" style="height:auto; width:50%">
+                    <div class="col-md-6 col-sm-12 my-auto" style="text-align: center">
+                        <img src="../assets/img/website/earth.svg" style="height:auto; width:50%">
                     </div>
             </div>
         </div>
