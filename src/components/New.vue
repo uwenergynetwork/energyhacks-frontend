@@ -12,12 +12,8 @@
                     <div class="w-100 d-none d-md-block"></div>
                 </div>
                 <div class="col-12 row pb-5 mx-0">
-                    <div class="col-md-9 col-sm-12 input-group">
-                    <input type="text" class="form-control email" placeholder="Enter your email address" aria-label="Email address">
-                </div>
-                <div class="col-md-3 col-sm-12 input-group">
-                    <button type="button" class="btn subscribe"><span style="color: white">Subscribe</span></button>
-                </div>
+                    <b-form-input type="email" v-model="email" class="col-md-9 col-sm-12 input-group form-control email" placeholder="Enter your email address"></b-form-input>
+                    <button type="button" v-on:click="reverseMessage" class="col-md-3 col-sm-12 input-group btn subscribe"><span style="color: white">Subscribe</span></button>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12" style="text-align: center;">
@@ -74,13 +70,30 @@
     </div>
 </template>
 
-
-
 <script lang="ts">
 import Vue from 'vue';
+import axios from 'axios'
 
 export default Vue.extend({
-  name: 'new',
+    name: 'new',
+    data() {
+      return {
+        email: ''
+      }
+    },
+    methods: {
+        reverseMessage: function () {
+            axios.post('https://us-central1-uwenca.cloudfunctions.net/earlySignup',{
+                email: this.email
+            })
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+        }
+    }
 });
 </script>
 
