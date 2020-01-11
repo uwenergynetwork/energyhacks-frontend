@@ -1,8 +1,16 @@
 <template>
   <div>
     <NavBar />
-    <Jumbotron />
-    <MailSignup />
+    <div class="bg-blue">
+      <div class="col-12 row m-0">
+        <Jumbotron class="offset-md-2 my-4 align-self-center"/>
+      </div>
+
+      <div class="col-12 valley row m-0">
+        <MailSignup class="my-auto pb-5 align-self-center offset-md-2"/>
+      </div>
+    </div>
+
     <Information />
     <HowItWorks />
     <Slideshow />
@@ -23,8 +31,6 @@ import Slideshow from "./Slideshow.vue";
 import Faq from "./Faq.vue";
 import Sponsorship from "./Sponsorship.vue";
 import Footer from "./Footer.vue";
-
-
 
 export default Vue.extend({
   name: "main",
@@ -49,5 +55,23 @@ body::-webkit-scrollbar {
 
 body {
   -ms-overflow-style: none;
+}
+
+.bg-blue {
+  background-color: #C4DCDC
+}
+
+.valley {
+  background-image: url("~@/assets/img/website/background.svg");
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  overflow: hidden;
+  height: 55vh;
+}
+
+MailSignup {
+  position: absolute;
+  bottom: 0;
 }
 </style>
