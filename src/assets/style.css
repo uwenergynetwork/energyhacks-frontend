@@ -4,3 +4,7 @@ body {
   height: 100vh;
   font-family: 'Josefin Sans', sans-serif;
 }
+
+.white {
+  color: white
+}

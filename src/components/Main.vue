@@ -31,6 +31,7 @@ export default Vue.extend({
     Jumbotron,
     MailSignup,
     Information,
+    HowItWorks,
     Slideshow,
     Faq,
     Sponsorship,
