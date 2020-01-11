@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: black" class="col-md-4 col-sm-12 white">
+  <div class="col-md-4 col-sm-12 white">
     <div class="col-md-8 col-sm-12 mb-3">
       <div>
         <b>Subscribe to our mailing list to receive important announcements!</b>
@@ -52,7 +52,7 @@ export default Vue.extend({
 });
 </script>
 
-<style>
+<style scoped>
 .round {
   border-radius: 100px;
 }
