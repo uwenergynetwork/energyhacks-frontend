@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<script lang='ts'>
+<script lang="ts">
 import Vue from "vue";
 import NavBar from "./NavBar.vue";
 import Jumbotron from "./Jumbotron.vue";
