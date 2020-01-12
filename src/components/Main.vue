@@ -2,12 +2,14 @@
   <div>
     <NavBar />
     <div class="bg-blue">
-      <div class="col-12 row m-0">
-        <Jumbotron class="offset-md-2 my-4 align-self-center"/>
-      </div>
+      <div class="pt-sm-5 pt-3">
+        <div class="col-12 row m-0">
+          <Jumbotron class="offset-md-2 my-4 align-self-center"/>
+        </div>
 
-      <div class="col-12 valley row m-0">
-        <MailSignup class="my-auto pb-5 align-self-center offset-md-2"/>
+        <div class="col-12 valley row m-0">
+          <MailSignup class="my-md-auto pb-5 offset-md-2"/>
+        </div>
       </div>
     </div>
 
@@ -62,11 +64,10 @@ body {
 }
 
 .valley {
-  background-image: url("~@/assets/img/website/background.svg");
+  background-image: url("~@/assets/img/website/background.png");
   background-size: contain;
   background-repeat: repeat-x;
   background-position: center bottom;
-  overflow: hidden;
   height: 55vh;
 }
 
