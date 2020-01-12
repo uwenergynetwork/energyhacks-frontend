@@ -1,17 +1,25 @@
 <template>
   <div class="col-12 row">
-    <div class="col-md-6 col-sm-12 align-self-center">
-      <h1><b>EnergyHacks</b></h1>
-      <h3 class="pb-1"><b>University of Waterloo · May 23-24, 2020</b></h3>
-      <h5>Sustainability problems.</h5>
-      <h5>Forwarding thinking.</h5>
-      <h5 class="pb-2">Powerful solutions.</h5>
-      <h5><b>Applications open early May</b></h5>
-    </div>
-    <div id="island" class="d-none d-md-block">
-    </div>
-    <div id="island-sm" class="d-md-none">
-    </div>
+    <transition name="fade">
+      <div v-if="show" class="col-md-6 col-sm-12 align-self-center">
+          <h1><b>EnergyHacks</b></h1>
+          <h3 class="pb-1"><b>University of Waterloo · May 23-24, 2020</b></h3>
+          <h5>Sustainability problems.</h5>
+          <h5>Forwarding thinking.</h5>
+          <h5 class="pb-2">Powerful solutions.</h5>
+          <h5><b>Applications open early May</b></h5>
+      </div>
+    </transition>
+
+    <transition name="slide-down">
+      <div v-if="show" id="island" class="d-none d-md-block">
+      </div>
+    </transition>
+
+    <transition name="fade">
+      <div id="island-sm" class="d-md-none">
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -19,6 +27,14 @@
 import Vue from "vue";
 
 export default Vue.extend({
+  data() {
+    return {
+      show: false
+    }
+  },
+  mounted() {
+    this.show = true;
+  }
 });
 </script>
 
@@ -37,6 +53,10 @@ export default Vue.extend({
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
+    animation-duration: 2s;
+    animation-name:  up-down;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 
   #island-sm {
@@ -51,4 +71,24 @@ export default Vue.extend({
     background-size: contain;
     overflow: hidden;
   }
+
+  .slide-down-enter-active {
+    transition: all 1s ease;
+  }
+
+  .slide-down-enter {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  @keyframes up-down {
+    from {
+      top: 1vh;
+    }
+
+    to {
+      top: -1vh;
+    }
+  }
+
 </style>
