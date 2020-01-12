@@ -13,12 +13,14 @@
       </div>
     </div>
 
-    <Information />
-    <HowItWorks />
-    <Slideshow />
-    <Faq />
-    <Sponsorship />
-    <Footer />
+    <div class="bg-gradient">
+      <Information />
+      <HowItWorks />
+      <Slideshow />
+      <Faq />
+      <Sponsorship />
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -61,6 +63,10 @@ body {
 
 .bg-blue {
   background-color: #C4DCDC
+}
+
+.bg-gradient {
+  background-image: linear-gradient(#88A550, #C4DCDC);
 }
 
 .valley {

@@ -12,3 +12,10 @@ body {
 .left-margin {
   width: 20vw;
 }
+
+.fade-enter-active {
+  transition: opacity 1.5s;
+}
+.fade-enter {
+  opacity: 0;
+}
