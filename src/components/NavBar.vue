@@ -174,7 +174,8 @@ export default Vue.extend({});
   margin-left: auto;
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
 a {
