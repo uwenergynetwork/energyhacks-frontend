@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap");
 
+html {
+  overflow-x: hidden;
+}
+
 body {
-  height: 100vh;
+  width: auto;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -10,7 +14,7 @@ body {
 }
 
 .left-margin {
-  width: 20vw;
+  width: 0vw;
 }
 
 .fade-enter-active {
