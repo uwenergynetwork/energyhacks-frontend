@@ -1,7 +1,7 @@
 <template>
   <div>
-    <NavBar />
     <div class="bg-blue">
+      <NavBar />
       <div class="pt-sm-5 pt-3">
         <div class="col-12 row m-0">
           <Jumbotron class="offset-md-2 my-4 align-self-center"/>

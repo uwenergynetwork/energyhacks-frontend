@@ -160,7 +160,7 @@ export default Vue.extend({});
 <style scoped>
 .navbar {
   z-index: 1;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -176,6 +176,13 @@ export default Vue.extend({});
   justify-content: space-between;
   flex-wrap: wrap;
   width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+  .right-side {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 a {
