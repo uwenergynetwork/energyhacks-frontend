@@ -1,6 +1,8 @@
 <template>
-  <div class="footer-copyright text-center py-3 d-flex justify-content-between">
-    <div fluid class="px-4" id="container">
+  <div
+    class="footer-copyright text-center py-3 d-flex justify-content-between align-items-center"
+  >
+    <div fluid class="px-4">
       <a href>
         <b>Contact Us</b>
       </a>
@@ -16,7 +18,7 @@
         <font-awesome-icon :icon="['fab', 'linkedin']" />
       </b-button>
     </div>
-    <div fluid class="px-4" id="container">
+    <div fluid class="px-4">
       <a href>
         <b>Privacy Policy</b>
       </a>
@@ -24,25 +26,19 @@
   </div>
 </template>
 
-<script lang='ts'>
+<script lang="ts">
 import Vue from "vue";
 
 export default Vue.extend({});
 </script>
 
-<style>
+<style scoped>
 .footer-copyright {
   background-color: #16353a;
   opacity: 0.5;
 }
 
 a {
-  color: white !important;
-}
-
-#container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: white;
 }
 </style>
