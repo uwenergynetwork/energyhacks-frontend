@@ -15,11 +15,6 @@
       <div v-if="show" id="island" class="d-none d-md-block">
       </div>
     </transition>
-
-    <transition name="fade">
-      <div id="island-sm" class="d-md-none">
-      </div>
-    </transition>
   </div>
 </template>
 
@@ -57,19 +52,6 @@ export default Vue.extend({
     animation-name:  up-down;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-  }
-
-  #island-sm {
-    position: absolute;
-    top: 60vh; right: -10vw;
-    z-index: 1;
-    width: 60vw;
-    height: 60vw;
-    background-image: url("~@/assets/img/website/island.svg");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
   }
 
   .slide-down-enter-active {
