@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="bg-blue">
-      <NavBar />
-      <div class="pt-sm-5 pt-3">
+      <div class="pt-2">
+        <NavBar />
         <div class="col-12 row m-0">
           <Jumbotron class="offset-md-2 my-4 align-self-center"/>
         </div>
@@ -74,7 +74,7 @@ body {
   background-size: contain;
   background-repeat: repeat-x;
   background-position: center bottom;
-  height: 55vh;
+  min-height: 55vh;
 }
 
 MailSignup {
