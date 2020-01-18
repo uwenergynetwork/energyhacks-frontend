@@ -4,7 +4,7 @@
       <a href="#" id="logo">
         <div id="logo-nav"></div>
       </a>
-      <div class="right-side d-sm-none d-md-flex">
+      <div class="right-side d-md-flex d-none d-md-block">
         <a href="#">About</a>
         <a href="#">How it works</a>
         <a href="#">2019</a>

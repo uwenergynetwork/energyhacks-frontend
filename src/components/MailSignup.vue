@@ -1,24 +1,25 @@
 <template>
   <transition name="fade">
-    <div v-if="show" class="col-md-4 col-sm-12 white mt-">
+    <div v-if="show" class="col-md-4 col-sm-12 white text-md-left text-center mt-5">
       <div class="col-md-8 col-sm-12 mb-3">
         <div>
-          <b>Subscribe to our mailing list to receive important announcements!</b>
+          <b class="d-none d-md-block">Subscribe to our mailing list to receive important announcements!</b>
+          <b class="d-md-none text-dark">Subscribe to our mailing list to receive important announcements!</b>
         </div>
       </div>
       <div class="col-12 row pb-md-5 mx-0">
         <input
           type="email"
           v-model="email"
-          class="col-md-8 col-sm-12 round white-border mr-md-3 white"
+          class="col-md-7 col-sm-12 round white-border mr-md-3 white"
           placeholder="Enter your email address"
         />
         <button
           type="button"
           v-on:click="subscribeEmail"
-          class="col-md-3 col-sm-12 button round white-border mt-md-0 mt-2"
+          class="col-md-4 col-sm-12 button round white-border mt-md-0 mt-2"
         >
-          <span class="white">
+          <span class="white some-class">
             <b>Subscribe</b>
           </span>
         </button>
