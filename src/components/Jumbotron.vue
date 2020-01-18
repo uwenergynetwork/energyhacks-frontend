@@ -7,7 +7,7 @@
           <h5>Sustainability problems.</h5>
           <h5>Forwarding thinking.</h5>
           <h5 class="pb-2">Powerful solutions.</h5>
-          <h5><b>Applications open early May</b></h5>
+          <h5><b>Applications open early April</b></h5>
       </div>
     </transition>
 
