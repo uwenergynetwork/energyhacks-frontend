@@ -1,27 +1,51 @@
 <template>
-  <div
-    class="footer-copyright text-center py-3 d-flex justify-content-between align-items-center"
-  >
-    <div fluid class="px-4">
-      <a href>
-        <b>Contact Us</b>
-      </a>
-    </div>
-    <div fluid>
-      <b-button squared variant="outline-secondary" class="mx-1">
-        <font-awesome-icon :icon="['fab', 'facebook']" />
-      </b-button>
-      <b-button squared variant="outline-secondary" class="mx-1">
-        <font-awesome-icon :icon="['fab', 'instagram']" />
-      </b-button>
-      <b-button squared variant="outline-secondary" class="mx-1">
-        <font-awesome-icon :icon="['fab', 'linkedin']" />
-      </b-button>
-    </div>
-    <div fluid class="px-4">
-      <a href>
-        <b>Privacy Policy</b>
-      </a>
+  <div>
+    <div class="text-center d-flex justify-content-center">
+      <b-col></b-col>
+      <b-col>
+        <div class="text-center">
+          <h3>CONTACT</h3>
+        </div>
+        <div class="text-center d-flex justify-content-center">
+          <a href="#">
+            <div class="svg-scale5050 mx-2 mb-5" id="fbicon-footer"></div>
+          </a>
+          <a href="#">
+            <div class="svg-scale5050 mx-2" id="instaicon-footer"></div>
+          </a>
+          <a href="#">
+            <div class="svg-scale5050 mx-2" id="mailicon-footer"></div>
+          </a>
+        </div>
+        <div class="text-center d-flex justify-content-center">
+          <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
+            <a href>
+              <u>Code of Conduct</u>
+            </a>
+          </div>
+          <div
+            fluid
+            flex-wrap
+            class="mx-2 px-2 center"
+            v-bind:class="{ nowrap: window.width > 450 }"
+          >
+            <div>
+              <a href>
+                <u>Privacy Policy</u>
+              </a>
+            </div>
+            <div class="mt-3 mb-5">
+              <a href>Copyright</a>
+            </div>
+          </div>
+          <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
+            <a href>
+              <u>Become a Sponsor</u>
+            </a>
+          </div>
+        </div>
+      </b-col>
+      <b-col></b-col>
     </div>
   </div>
 </template>
@@ -29,13 +53,78 @@
 <script lang="ts">
 import Vue from "vue";
 
-export default Vue.extend({});
+export default Vue.extend({
+  data() {
+    return {
+      window: {
+        width: 0,
+        height: 0
+      }
+    };
+  },
+  created() {
+    window.addEventListener("resize", this.handleResize);
+    this.handleResize();
+  },
+  destroyed() {
+    window.removeEventListener("resize", this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      this.window.width = window.innerWidth;
+      this.window.height = window.innerHeight;
+    }
+  }
+});
 </script>
 
 <style scoped>
+.svg-scale5050 {
+  height: 50px;
+  width: 50px;
+}
+
+#fbicon-footer {
+  background-image: url("~@/assets/img/website/facebookWhite.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#instaicon-footer {
+  background-image: url("~@/assets/img/website/instaWhite.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: white;
+}
+
+#mailicon-footer {
+  background-image: url("~@/assets/img/website/mailWhite.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h3 {
+  color: white;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-copyright {
   background-color: #16353a;
   opacity: 0.5;
+}
+
+a:hover {
+  color: black;
+  opacity: 80%;
+  text-decoration: none;
 }
 
 a {
