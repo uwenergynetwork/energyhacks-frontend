@@ -19,7 +19,7 @@
       <Slideshow />
       <Faq />
       <Sponsorship />
-      <Footer />
+      <Footer class="mt-5"/>
     </div>
   </div>
 </template>

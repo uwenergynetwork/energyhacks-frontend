@@ -4,7 +4,7 @@
       <b-col></b-col>
       <b-col>
         <div class="text-center">
-          <h3>CONTACT</h3>
+          <h4>CONTACT</h4>
         </div>
         <div class="text-center d-flex justify-content-center">
           <a href="#">
@@ -103,7 +103,7 @@ export default Vue.extend({
   background-size: contain;
 }
 
-h3 {
+h4 {
   color: white;
 }
 
