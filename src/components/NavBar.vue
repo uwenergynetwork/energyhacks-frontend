@@ -4,22 +4,24 @@
       <a href="#" id="logo">
         <div id="logo-nav"></div>
       </a>
-      <div class="right-side d-md-flex d-none d-md-block">
+      <div class="right-side d-sm-flex d-none d-sm-block">
         <a href="#">About</a>
         <a href="#">How it works</a>
         <a href="#">2019</a>
         <a href="#">Photos</a>
         <a href="#">FAQ</a>
         <a href="#">Sponsors</a>
-        <a href="#">
-          <div class="svg-scale2525" id="fbicon-nav"></div>
-        </a>
-        <a href="#">
-          <div class="svg-scale2525" id="instaicon-nav"></div>
-        </a>
-        <a href="#">
-          <div class="svg-scale2525" id="mailicon-nav"></div>
-        </a>
+        <div class="w-25 d-flex justify-content-around">
+          <a href="#">
+            <div class="svg-scale2525" id="fbicon-nav"></div>
+          </a>
+          <a href="#">
+            <div class="svg-scale2525" id="instaicon-nav"></div>
+          </a>
+          <a href="#">
+            <div class="svg-scale2525" id="mailicon-nav"></div>
+          </a>
+        </div>
       </div>
     </nav>
   </div>
@@ -59,7 +61,7 @@ export default Vue.extend({});
   a {
     color: black;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   a:hover {
@@ -90,4 +92,10 @@ export default Vue.extend({});
   #mailicon-nav{
     background-image: url("~@/assets/img/website/mail.svg");
   }
+
+  /* @media only screen and (max-width: 600px) {
+    .right-side{
+      display:none;
+    }
+} */
 </style>
