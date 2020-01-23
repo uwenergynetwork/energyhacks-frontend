@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
-    <info-section v-for="(content, index) in contents" 
-    :key=content[0] 
-    :title="content.title" 
-    :desc="content.desc" 
-    :picOnLeft="index%2 !== 0"
-    :pic="content.pic" />
-  </div>
+	<div class="container">
+	<info-section v-for="(content, index) in contents" 
+	:key=content[0] 
+	:title="content.title" 
+	:desc="content.desc" 
+	:picOnLeft="index%2 !== 0"
+	:pic="content.pic" />
+	</div>
 </template>
 
 <script lang="ts">

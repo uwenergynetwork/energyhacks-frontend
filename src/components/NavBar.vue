@@ -92,10 +92,4 @@ export default Vue.extend({});
   #mailicon-nav{
     background-image: url("~@/assets/img/website/mail.svg");
   }
-
-  /* @media only screen and (max-width: 600px) {
-    .right-side{
-      display:none;
-    }
-} */
 </style>
