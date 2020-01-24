@@ -20,11 +20,11 @@ export default Vue.extend({
     text1: String,
     text2: String
   },
-  computed: {
-      style () {
-        return {'color:' : this.color,};
+  methods:{
+      getImage(loca:String){
+          return require(`@/assets/img/website/${loca}`)
       }
-    }
+  }
 });
 </script>
 
