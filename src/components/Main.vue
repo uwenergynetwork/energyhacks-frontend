@@ -65,7 +65,7 @@ body {
 }
 
 .bg-blue {
-  background-color: #C4DCDC
+  background-color: #F4FFFF
 }
 
 .bg-gradient {
