@@ -18,6 +18,9 @@
       <HowItWorks />
       <Slideshow />
       <Faq />
+    </div>
+
+    <div class="bg-gradient-2 pt-5">
       <Sponsorship />
       <Footer class="mt-5"/>
     </div>
@@ -67,6 +70,10 @@ body {
 
 .bg-gradient {
   background-image: linear-gradient(#88A550, #C4DCDC);
+}
+
+.bg-gradient-2 {
+  background-image: linear-gradient(#C4DCDC, #16353A);
 }
 
 .valley {
