@@ -2,11 +2,11 @@
   <div class="col-12 text-center">
     <h2>Sponsorship Opportunities</h2>
     
-    <p class="col-sm-10 col-md-6 mx-auto mb-5">We recognize that this event would not be possible without the generous help of our sponsors and in return we aim to provide value back in various forms.</p>
+    <p class="col-sm-10 col-md-6 mx-auto mb-3">We recognize that this event would not be possible without the generous help of our sponsors and in return we aim to provide value back in various forms.</p>
     
     <div class="row col-md-8 col-12 mx-auto d-flex align-items-stretch justify-content-around">
 
-      <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch my-3 my-md-0">
+      <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch mb-1 my-md-0">
         <div class="col-12 box px-4 pb-4 box-1 shadow-md">
           <img class="logo" src="@/assets/img/website/network-icon.svg"/>
           <h5 class="my-3"><b>Networking Opportunities</b></h5>
@@ -14,15 +14,15 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch my-3 my-md-0">
+      <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch mb-1 my-md-0">
         <div class="col-12 box px-4 pb-4 box-2 shadow-md">
           <img class="logo" src="@/assets/img/website/brand-awareness.svg"/>
           <h5 class="my-3"><b>Brand Awareness</b></h5>
-          <p>As a sponsor, your company brand will be at the center of this joint endeavor. Your branding will be present on any apparel present at the event and center stage on the hackathon’s website along with any promotional material.</p>
+          <p>Last year, our social media campaigns reached over 20,000 individuals and our website had over 12,000 unique pageviews. As a sponsor, your brand image will be further tied towards this initiative at scale, and will help develop positive associations with your company among the student body.  </p>
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch my-3 my-md-0">
+      <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch mb-1 my-md-0">
         <div class="col-12 box px-4 pb-4 box-3 shadow-md">
           <img class="logo" src="@/assets/img/website/marketing.svg"/>
           <h5 class="my-3"><b>Networking</b></h5>
@@ -30,6 +30,10 @@
         </div>
       </div>
     </div>
+
+    <p class="col-sm-10 col-md-6 mx-auto mt-5 white">Energy Hacks 2020 will bring forth innovative solutions and ideas to the energy industry. You can help invest in the future of energy by contacting us for more details on sponsorship opportunities and benefits available to you.</p>
+  
+    <button v-on:click="sponsorship" class="col-md-2 col-sm-12 button round white-border mt-md-0 mt-2 bg-light p-1"><b>Become a sponsor</b></button>
   </div>
 </template>
 
@@ -37,15 +41,20 @@
 import Vue from "vue";
 
 export default Vue.extend({
+  methods: {
+    sponsorship() {
+      window.open("mailto:energyhacks@uwen.ca");
+    }
+  }
 });
 </script>
 
 <style scoped>
   .box {
-    margin-top: 8vh;
+    margin-top: 30%;
     background-color: #F4FFFF;
     border-radius: 0.5vw;
-    padding-top: 10vh;
+    padding-top: 15%;
   }
 
   .box-1 {
@@ -61,11 +70,11 @@ export default Vue.extend({
   }
 
   .logo {
-    height: 16vh;
+    width: 30%;
     opacity: 1;
     position: absolute;
     margin: auto;
-    top: -8vh;
+    top: -15%;
     right :0;
     left: 0;
   }

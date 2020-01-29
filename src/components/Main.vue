@@ -13,15 +13,15 @@
       </div>
     </div>
 
-    <div class="bg-gradient">
-      <Information />
-      <HowItWorks />
+    <div class="bg-gradient pt-5">
+      <Information class="mb-5"/>
+      <HowItWorks class="mt-5 pt-5"/>
       <Slideshow />
-      <Faq />
+      <Faq class="mt-5"/>
     </div>
 
     <div class="bg-gradient-2 pt-5">
-      <Sponsorship />
+      <Sponsorship class="mb-5 pt-5" />
       <Footer class="mt-5"/>
     </div>
   </div>

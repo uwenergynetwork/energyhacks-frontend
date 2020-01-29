@@ -1,10 +1,10 @@
 <template>
-	<section :class="(picOnLeft? 'flex-row-reverse row': 'row') ">
+	<section :class="(picOnLeft? 'flex-row-reverse row': 'row') + ' pt-0 my-5 my-md-0'">
 			<div class="col-xs-6 col-sm">
-					<div class="title">{{title}}</div>
+					<div class="title text-left">{{title}}</div>
 					<div class="desc">{{desc}}</div>
 			</div>
-			<img class="col-sm p-5" :src="getImage(this.pic)">
+			<img class="img-fluid p-2 my-3 my-md-0" :src="getImage(this.pic)">
 	</section>
 </template>
 
