@@ -17,11 +17,9 @@
         <button
           type="button"
           v-on:click="subscribeEmail"
-          class="col-md-4 col-sm-12 button round white-border mt-md-0 mt-2"
+          class="col-md-4 col-sm-12 button round blue white-border bg-light mt-md-0 mt-2 p-1"
         >
-          <span class="white some-class">
-            <b>Subscribe</b>
-          </span>
+          <b>Subscribe</b>
         </button>
       </div>
     </div>
@@ -60,12 +58,7 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.round {
-  border-radius: 100px;
-}
-
-.white-border {
-  border: 1px solid #ffffff;
-  background: transparent;
-}
+  .blue {
+    color: #16353A
+  }
 </style>

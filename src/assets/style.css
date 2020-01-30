@@ -13,6 +13,15 @@ body {
   color: white
 }
 
+.round {
+  border-radius: 100px;
+}
+
+.white-border {
+  border: 1px solid #ffffff;
+  background: transparent;
+}
+
 .left-margin {
   width: 0vw;
 }
