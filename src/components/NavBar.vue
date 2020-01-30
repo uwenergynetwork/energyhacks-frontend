@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div class="navbar col-12 col-lg-10 mx-auto">
     <nav>
       <a href="#" id="logo">
         <div id="logo-nav"></div>
