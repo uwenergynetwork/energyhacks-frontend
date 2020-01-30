@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container offset-1 offset-md-2 col-10 col-md-8">
 	<info-section v-for="(content, index) in contents" 
 	:key=content[0] 
 	:title="content.title" 

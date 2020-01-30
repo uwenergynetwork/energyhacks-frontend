@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="text-center d-flex justify-content-center">
-      <b-col></b-col>
+    <div class="col-12 text-center d-flex justify-content-around pt-5">
       <b-col>
         <div class="text-center">
           <h4>CONTACT</h4>
@@ -34,8 +33,8 @@
                 <u>Privacy Policy</u>
               </a>
             </div>
-            <div class="mt-3 mb-5">
-              <a href>Copyright</a>
+            <div class="mt-4 mb-5">
+              <a href="https://uwen.ca" target="_blank">© UWEN</a>
             </div>
           </div>
           <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
@@ -45,7 +44,6 @@
           </div>
         </div>
       </b-col>
-      <b-col></b-col>
     </div>
   </div>
 </template>

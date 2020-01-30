@@ -13,12 +13,15 @@
       </div>
     </div>
 
-    <div class="bg-gradient">
-      <Information />
-      <HowItWorks />
+    <div class="bg-gradient pt-5">
+      <Information class="mb-5"/>
+      <HowItWorks class="mt-5 pt-5"/>
       <Slideshow />
-      <Faq />
-      <Sponsorship />
+      <Faq class="mt-5"/>
+    </div>
+
+    <div class="bg-gradient-2 pt-5">
+      <Sponsorship class="mb-5 pt-5" />
       <Footer class="mt-5"/>
     </div>
   </div>
@@ -62,11 +65,15 @@ body {
 }
 
 .bg-blue {
-  background-color: #C4DCDC
+  background-color: #F4FFFF
 }
 
 .bg-gradient {
   background-image: linear-gradient(#88A550, #C4DCDC);
+}
+
+.bg-gradient-2 {
+  background-image: linear-gradient(#C4DCDC, #16353A);
 }
 
 .valley {
