@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <div v-if="show" class="col-md-4 col-sm-12 white text-md-left text-center mt-5">
+    <div v-if="show" class="col-md-5 col-sm-12 white text-md-left text-center mt-5">
       <div class="col-md-8 col-sm-12 mb-3">
         <div>
           <b class="d-none d-md-block">Subscribe to our mailing list to receive important announcements!</b>
