@@ -4,11 +4,11 @@
       <div class="pt-2">
         <NavBar />
         <div class="col-12 row m-0">
-          <Jumbotron class="offset-md-2 my-4 align-self-center"/>
+          <Jumbotron class="offset-md-2 my-4 align-self-center" />
         </div>
 
         <div class="col-12 valley row m-0">
-          <MailSignup class="my-md-auto pb-5 offset-md-2"/>
+          <MailSignup class="my-md-auto pb-5 offset-md-2" />
         </div>
       </div>
     </div>
@@ -17,12 +17,18 @@
       <Information class="mb-5"/>
       <HowItWorks class="mt-5 pt-5"/>
       <Slideshow />
+<<<<<<< HEAD
       <Faq class="mt-5"/>
     </div>
 
     <div class="bg-gradient-2 pt-5">
       <Sponsorship class="mb-5 pt-5" />
       <Footer class="mt-5"/>
+=======
+      <Faq />
+      <Sponsorship />
+      <Footer class="mt-5" />
+>>>>>>> 0c9a174... init
     </div>
   </div>
 </template>
@@ -65,11 +71,15 @@ body {
 }
 
 .bg-blue {
+<<<<<<< HEAD
   background-color: #F4FFFF
+=======
+  background-color: #c4dcdc;
+>>>>>>> 0c9a174... init
 }
 
 .bg-gradient {
-  background-image: linear-gradient(#88A550, #C4DCDC);
+  background-image: linear-gradient(#88a550, #c4dcdc);
 }
 
 .bg-gradient-2 {
