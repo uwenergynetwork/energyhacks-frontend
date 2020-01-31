@@ -1,10 +1,10 @@
 <template>
 	<div :class="(picOnLeft? 'flex-row-reverse row': 'row') + ' pt-0 my-5 my-md-0'">
-			<div class="col-6 my-auto">
+			<div class="col-md-6 my-auto">
 					<div class="title text-left">{{title}}</div>
 					<div class="desc">{{desc}}</div>
 			</div>
-			<img class="col-6 img-fluid p-4 my-3 my-md-0" :src="getImage(this.pic)">
+			<img class="col-md-6 img-fluid p-4 my-3 my-md-0" :src="getImage(this.pic)">
 	</div>
 </template>
 
