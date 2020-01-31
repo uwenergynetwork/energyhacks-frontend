@@ -16,7 +16,7 @@
     <div class="bg-gradient pt-5">
       <Information class="mb-5" />
       <HowItWorks class="mt-5 pt-5" />
-      <Slideshow />
+      <Slideshow class="mt-5 pt-5" />
       <Faq class="mt-5" />
     </div>
 
