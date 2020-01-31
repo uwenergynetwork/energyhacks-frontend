@@ -14,15 +14,15 @@
     </div>
 
     <div class="bg-gradient pt-5">
-      <Information class="mb-5"/>
-      <HowItWorks class="mt-5 pt-5"/>
+      <Information class="mb-5" />
+      <HowItWorks class="mt-5 pt-5" />
       <Slideshow />
-      <Faq class="mt-5"/>
+      <Faq class="mt-5" />
     </div>
 
     <div class="bg-gradient-2 pt-5">
       <Sponsorship class="mb-5 pt-5" />
-      <Footer class="mt-5"/>
+      <Footer class="mt-5" />
     </div>
   </div>
 </template>
@@ -65,7 +65,7 @@ body {
 }
 
 .bg-blue {
-  background-color: #F4FFFF
+  background-color: #f4ffff;
 }
 
 .bg-gradient {
@@ -73,7 +73,7 @@ body {
 }
 
 .bg-gradient-2 {
-  background-image: linear-gradient(#C4DCDC, #16353A);
+  background-image: linear-gradient(#c4dcdc, #16353a);
 }
 
 .valley {

@@ -1,6 +1,6 @@
 <template>
-  <div class="container slideshow-margin">
-    <b-col>
+  <div class="slideshow-margin">
+    <div clas="col-12">
       <div class="text-center">
         <h2>
           <b>EnergyHacks 2019</b>
@@ -9,8 +9,12 @@
       <div class="text-center">
         <p>See how it went down last year!</p>
       </div>
-      <div class="container">
-        <img src="~@/assets/img/website/slideshow.svg" id="slideshow-bg" />
+      <div class="container col-12">
+        <img
+          src="~@/assets/img/website/slideshow.svg"
+          id="slideshow-bg"
+          class="col-12 p-0 mx-auto text-center"
+        />
         <div id="carousel">
           <carousel
             :navigate-to="someLocalProperty"
@@ -32,7 +36,7 @@
           </carousel>
         </div>
       </div>
-    </b-col>
+    </div>
   </div>
 </template>
 
@@ -73,7 +77,7 @@ export default Vue.extend({
 #slideshow-bg {
   box-sizing: border-box;
   width: 100%;
-  height: 100%;
+  height: 125%;
   z-index: 0;
   position: absolute;
   margin: 20px;
