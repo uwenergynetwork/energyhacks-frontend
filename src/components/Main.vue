@@ -17,18 +17,12 @@
       <Information class="mb-5"/>
       <HowItWorks class="mt-5 pt-5"/>
       <Slideshow />
-<<<<<<< HEAD
       <Faq class="mt-5"/>
     </div>
 
     <div class="bg-gradient-2 pt-5">
       <Sponsorship class="mb-5 pt-5" />
       <Footer class="mt-5"/>
-=======
-      <Faq />
-      <Sponsorship />
-      <Footer class="mt-5" />
->>>>>>> 0c9a174... init
     </div>
   </div>
 </template>
@@ -71,11 +65,7 @@ body {
 }
 
 .bg-blue {
-<<<<<<< HEAD
   background-color: #F4FFFF
-=======
-  background-color: #c4dcdc;
->>>>>>> 0c9a174... init
 }
 
 .bg-gradient {
