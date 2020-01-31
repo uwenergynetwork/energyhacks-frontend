@@ -32,7 +32,7 @@ export default Vue.extend({
         },
         { 
           title: "We’re sustainable!", 
-          desc:"Being the only energy focused hackathon in Canada, EnergyHacks offers a unique experience by encouraging participants to come up with solutions for one of the most pressing issues to date.",
+          desc:"We strongly encourage the use of reusable water bottles and will provide compostable food containers and cutlery. Low emissions and low waste!",
           pic: "infoSect3.svg"
         },
       ]
