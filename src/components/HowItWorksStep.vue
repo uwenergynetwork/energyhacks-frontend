@@ -1,10 +1,12 @@
 <template>
-  <div class="row col-12 mt-3 mb-3" >
+  <div class="row col-12 mt-3 mb-3 mx-auto p-0" >
     <div class="col-md-1 col-sm-12 mt-1 mb-1 text-center" ><span class="dot" :style="{'background-color': color, color:'white'}">{{number}}</span></div>
-    <div class="col-md-2 col-sm-12 mt-1 mb-1 text-center"><img :src="getImage(this.pic)"></div>
-    <div class="col-md-9 col-sm-12 row mt-1 mb-1">
-        <b class="col-12" :style="{'color': color}">{{text1}}</b>
-        <span v-if="text2.length > 0" class="col-12" :style="{'color': color}"> {{text2}}</span>
+    <div class="col-md-2 col-sm-12 mt-1 mb-1 pb-2 text-center"><img :src="getImage(this.pic)"></div>
+    <div class="col-md-9 col-sm-12 mt-1 mb-1">
+        <div class="row">
+          <b class="col-12" :style="{'color': color}">{{text1}}</b>
+          <span v-if="text2.length > 0" class="col-12" :style="{'color': color}"> {{text2}}</span>
+        </div>
     </div>
   </div>
 </template>

@@ -4,7 +4,7 @@
         <div class="row justify-content-center">
           <div class="col-4 mt-5 title"><h3><b>How It Works</b></h3></div>
         </div>
-        <div class="row col-12 justify-content-center">
+        <div class="row col-12 mx-auto justify-content-center p-0">
           <how-it-works-step v-for="s in steps" :key=s[0] :number="s[0]" :color="s[1]" :pic="s[2]" :text1="s[3]" :text2="s[4]" />
         </div>
         <div style="height: 30vh"></div>
