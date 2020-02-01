@@ -28,7 +28,7 @@ export default Vue.extend({
         { 
           title: "Uniting students across all faculties", 
           desc:"Your solution can be technical or non-technical, which includes apps, proposals for law changes, and more! Get ready for your team to tackle challenges with technical, social, economic, and environmental aspects. We are uniting students to create solutions for a better world!",
-          pic: "infoSect2.svg"
+          pic: "infoSect2.png"
         },
         { 
           title: "We’re sustainable!", 

@@ -6,13 +6,13 @@
           <h4>CONTACT</h4>
         </div>
         <div class="text-center d-flex justify-content-center">
-          <a href="https://www.facebook.com/UWaterlooEnergyNetwork/">
+          <a href="https://www.facebook.com/UWaterlooEnergyNetwork/" target="_blank">
             <div class="svg-scale5050 mx-2 mb-5" id="fbicon-footer"></div>
           </a>
-          <a href="https://www.instagram.com/uwenergynetwork/">
+          <a href="https://www.instagram.com/uwenergynetwork/" target="_blank">
             <div class="svg-scale5050 mx-2" id="instaicon-footer"></div>
           </a>
-          <a href="mailto:energyhacks@uwen.ca">
+          <a href="mailto:energyhacks@uwen.ca" target="_blank">
             <div class="svg-scale5050 mx-2" id="mailicon-footer"></div>
           </a>
         </div>

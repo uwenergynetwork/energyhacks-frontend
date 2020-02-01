@@ -22,6 +22,11 @@ body {
   background: transparent;
 }
 
+.blue-border {
+  border: 1px solid #16353A;
+  background: transparent;
+}
+
 .left-margin {
   width: 0vw;
 }

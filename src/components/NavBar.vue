@@ -11,13 +11,13 @@
         <ScrollLink href="#faq">FAQ</ScrollLink>
         <ScrollLink href="#sponsor">Sponsors</ScrollLink>
         <div class="w-25 d-flex justify-content-around">
-          <a href="https://www.facebook.com/UWaterlooEnergyNetwork/">
+          <a href="https://www.facebook.com/UWaterlooEnergyNetwork/" target="_blank">
             <div class="svg-scale2525" id="fbicon-nav"></div>
           </a>
-          <a href="https://www.instagram.com/uwenergynetwork/">
+          <a href="https://www.instagram.com/uwenergynetwork/" target="_blank">
             <div class="svg-scale2525" id="instaicon-nav"></div>
           </a>
-          <a href="mailto:energyhacks@uwen.ca">
+          <a href="mailto:energyhacks@uwen.ca" target="_blank">
             <div class="svg-scale2525" id="mailicon-nav"></div>
           </a>
         </div>
