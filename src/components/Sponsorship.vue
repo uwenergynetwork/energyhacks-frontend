@@ -25,7 +25,7 @@
       <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch mb-1 my-md-0">
         <div class="col-12 box px-4 pb-4 box-3 shadow-md">
           <img class="logo" src="@/assets/img/website/marketing.svg"/>
-          <h5 class="my-3"><b>Networking</b></h5>
+          <h5 class="my-3"><b>Marketing</b></h5>
           <p>As a sponsor, your company brand will be at the center of this joint endeavor. Your branding will be present on any apparel present at the event and center stage on the hackathon’s website along with any promotional material.</p>
         </div>
       </div>
