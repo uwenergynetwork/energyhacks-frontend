@@ -1,4 +1,4 @@
-name: CI
+name: Compiles
 
 on: [push]
 
@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Run a multi-line script
+    - name: Run scripts
       run: |
         npm install
         npm run build
