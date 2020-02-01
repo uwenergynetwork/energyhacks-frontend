@@ -8,7 +8,6 @@
         <ScrollLink href="#about">About</ScrollLink>
         <ScrollLink href="#how-it-works">How it works</ScrollLink>
         <ScrollLink href="#slideshow">2019</ScrollLink>
-        <ScrollLink href="#slideshow">Photos</ScrollLink>
         <ScrollLink href="#faq">FAQ</ScrollLink>
         <ScrollLink href="#sponsor">Sponsors</ScrollLink>
         <div class="w-25 d-flex justify-content-around">
