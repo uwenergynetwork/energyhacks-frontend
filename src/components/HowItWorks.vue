@@ -26,7 +26,7 @@ export default Vue.extend({
       steps: [
         ["1", "#16353a", "apply-icon.svg", "When applications open, submit an application with your 4 person team or independently.", "Applications open on March 31 and close on April 19. Acceptances are sent out by April 29. If you get an acceptance email, just RSVP and then you're on your way to innovating at EnergyHacks!"],
         ["2", "#547c83", "build-icon.svg", "For 24 hours, you can attend workshops, meet new people, and most importantly, get hacking!", ""],
-        ["3", "#88a550", "pitch-icon.svg", "Pitch your hack to the judges for a changce to win some great prizes.", ""]
+        ["3", "#88a550", "pitch-icon.svg", "Pitch your hack to the judges for a chance to win some great prizes.", ""]
       ]
     }
   }
