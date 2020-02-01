@@ -14,14 +14,14 @@
     </div>
 
     <div class="bg-gradient pt-5">
-      <Information class="mb-5" />
-      <HowItWorks class="mt-5 pt-5" />
-      <Slideshow class="mt-5 pt-5" />
-      <Faq class="mt-5" />
+      <Information id="about" class="mb-5" />
+      <HowItWorks id="how-it-works" class="mt-5 pt-5" />
+      <Slideshow id="slideshow" class="mt-5 pt-5" />
+      <Faq id="faq" class="mt-5" />
     </div>
 
     <div class="bg-gradient-2 pt-5">
-      <Sponsorship class="mb-5 pt-5" />
+      <Sponsorship id="sponsor" class="mb-5 pt-5" />
       <Footer class="mt-5" />
     </div>
   </div>

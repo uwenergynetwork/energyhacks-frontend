@@ -5,20 +5,20 @@
         <div id="logo-nav"></div>
       </a>
       <div class="right-side d-sm-flex d-none d-sm-block">
-        <a href="#">About</a>
-        <a href="#">How it works</a>
-        <a href="#">2019</a>
-        <a href="#">Photos</a>
-        <a href="#">FAQ</a>
-        <a href="#">Sponsors</a>
+        <ScrollLink href="#about">About</ScrollLink>
+        <ScrollLink href="#how-it-works">How it works</ScrollLink>
+        <ScrollLink href="#slideshow">2019</ScrollLink>
+        <ScrollLink href="#slideshow">Photos</ScrollLink>
+        <ScrollLink href="#faq">FAQ</ScrollLink>
+        <ScrollLink href="#sponsor">Sponsors</ScrollLink>
         <div class="w-25 d-flex justify-content-around">
-          <a href="#">
+          <a href="https://www.facebook.com/UWaterlooEnergyNetwork/">
             <div class="svg-scale2525" id="fbicon-nav"></div>
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/uwenergynetwork/">
             <div class="svg-scale2525" id="instaicon-nav"></div>
           </a>
-          <a href="#">
+          <a href="mailto:energyhacks@uwen.ca">
             <div class="svg-scale2525" id="mailicon-nav"></div>
           </a>
         </div>
@@ -29,8 +29,13 @@
 
 <script lang="ts">
 import Vue from "vue";
+import ScrollLink from "./ScrollLink.vue"
 
-export default Vue.extend({});
+export default Vue.extend({
+  components:{
+    ScrollLink
+  }
+});
 </script>
 
 <style scoped>
