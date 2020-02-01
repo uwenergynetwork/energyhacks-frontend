@@ -26,14 +26,14 @@
             fluid
             flex-wrap
             class="mx-2 px-2 center"
-            v-bind:class="{ nowrap: window.width > 450 }"
+            v-bind:class="{ nowrap: window.width > 500 }"
           >
             <div>
               <a href>
                 <u>Privacy Policy</u>
               </a>
             </div>
-            <div class="mt-4 mb-5">
+            <div class="mt-4 mb-5 nowrap">
               <a href="https://uwen.ca" target="_blank">© UWEN</a>
             </div>
           </div>
