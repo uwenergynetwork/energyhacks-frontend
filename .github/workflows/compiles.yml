@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-
+    name: Compiles
     runs-on: ubuntu-latest
 
     steps:
