@@ -1,18 +1,20 @@
 <template>
   <div>
-    <Main />
+    <Main/>
   </div>
 </template>
 
-<script>
-import Main from './components/Main.vue'
+<script lang="ts">
 
-export default {
-  name: 'app',
+import Vue from "vue";
+import Main from "./components/Main.vue"
+
+export default Vue.extend({
+  name: "energyhacks",
   components: {
     Main
   }
-}
+});
 </script>
 
 <style>
