@@ -48,7 +48,7 @@ export default Vue.extend({
   methods: {
     subscribeEmail: function() {
       axios
-        .post("https://us-central1-uwenca.cloudfunctions.net/earlySignup", {
+        .post("https://us-central1-uwenca.cloudfunctions.net/earlyEmailSignup", {
           email: this.email
         })
         .then(function(response) {
