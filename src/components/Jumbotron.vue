@@ -39,10 +39,10 @@ export default Vue.extend({
   }
   #island {
     position: absolute;
-    top: 0px; right: 27.5vw;
+    top: 0px; left: 33vw;
     z-index: 1;
-    width: 40vw;
-    height: 40vw;
+    width: 600px;
+    height: 600px;
     background-image: url("~@/assets/img/website/island.svg");
     background-position: center bottom;
     background-repeat: no-repeat;

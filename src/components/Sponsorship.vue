@@ -70,11 +70,11 @@ export default Vue.extend({
   }
 
   .logo {
-    width: 14vh;
+    width: 100px;
     opacity: 1;
     position: absolute;
     margin: auto;
-    top: -7vh;
+    top: -50px;
     right :0;
     left: 0;
   }
