@@ -12,9 +12,29 @@
 
 <body>
   <noscript>
-    <strong>We"re sorry but Energy Hacks doesn"t work properly without JavaScript enabled. Please enable it to
+    <strong>We"re sorry but Energy Hacks doesn't work properly without JavaScript enabled. Please enable it to
       continue.</strong>
   </noscript>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDn9r8gNcaH-iB-HZgCXH8erszyxrL8clY",
+      authDomain: "uwenca.firebaseapp.com",
+      databaseURL: "https://uwenca.firebaseio.com",
+      projectId: "uwenca",
+      storageBucket: "uwenca.appspot.com",
+      messagingSenderId: "443501996878",
+      appId: "1:443501996878:web:74d5148adb9f667f338c1f",
+      measurementId: "G-JY1QTXKWJX"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
   <div id="app"></div>
   <!-- built files will be auto injected -->
 </body>
