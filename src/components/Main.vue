@@ -1,6 +1,8 @@
 <template>
   <div>
     <div class="bg-blue">
+      <div class="birds left-right"></div>
+      <div ></div>
       <div class="pt-2">
         <NavBar />
         <div class="col-12 row m-0">
@@ -56,36 +58,67 @@ export default Vue.extend({
 </script>
 
 <style>
-body::-webkit-scrollbar {
-  display: none;
-}
+  body::-webkit-scrollbar {
+    display: none;
+  }
 
-body {
-  -ms-overflow-style: none;
-}
+  body {
+    -ms-overflow-style: none;
+  }
 
-.bg-blue {
-  background-color: #f4ffff;
-}
+  .bg-blue {
+    background-color: #f4ffff;
+  }
 
-.bg-gradient {
-  background-image: linear-gradient(#88a550, #c4dcdc);
-}
+  .bg-gradient {
+    background-image: linear-gradient(#88a550, #c4dcdc);
+  }
 
-.bg-gradient-2 {
-  background-image: linear-gradient(#c4dcdc, #16353a);
-}
+  .bg-gradient-2 {
+    background-image: linear-gradient(#c4dcdc, #16353a);
+  }
 
-.valley {
-  background-image: url("~@/assets/img/website/background.png");
-  background-size: contain;
-  background-repeat: repeat-x;
-  background-position: center bottom;
-  min-height: 55vh;
-}
+  .valley {
+    background-image: url("~@/assets/img/website/background.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    min-height: 500px;
+  }
 
-MailSignup {
-  position: absolute;
-  bottom: 0;
-}
+  .birds {
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url("~@/assets/img/website/birds.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+  .left-right {
+    animation-duration: 30s;
+    animation-name: left-right;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+  }
+
+  @keyframes left-right {
+    from {
+      left: -5vw;
+    }
+
+    to {
+      left: 105vw;
+    }
+  }
+
+  MailSignup {
+    position: absolute;
+    bottom: 0;
+  }
 </style>

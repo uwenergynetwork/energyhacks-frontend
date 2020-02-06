@@ -20,7 +20,7 @@ export default Vue.extend({
   data() {
     return {
       questions: [
-        ["Who can apply?", "This event is open to high school students, college/university students, recent graduates and professionals are all allowed to apply. You do not need to have prior technical knowledge for this event."],
+        ["Who can apply?", "This event is open to college/university students and recent graduates. You do not need to have prior technical knowledge for this event!"],
         ["What if I don’t have a team?", "Don't worry! You will have the opportunity to team up with others before the event in one of our dedicated Slack channels, and at the beginning of the event."],
         ["Is there any cost to participate?", "None! This event is completely free! Just ensure that you have received an acceptance email and RSVP'd. "],
         ["Will there be food?", "Yes! There will be lunch, dinner, snacks, coffee and more, so bring your appetite!"],
