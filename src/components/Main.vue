@@ -1,8 +1,6 @@
 <template>
   <div>
     <div class="bg-blue">
-      <div class="birds left-right"></div>
-      <div ></div>
       <div class="pt-2">
         <NavBar />
         <div class="col-12 row m-0">
@@ -84,27 +82,6 @@ export default Vue.extend({
     background-repeat: repeat-x;
     background-position: center bottom;
     min-height: 500px;
-  }
-
-  .birds {
-    position: absolute;
-    top: 100px;
-    z-index: 0;
-    width: 60px;
-    height: 60px;
-    background-image: url("~@/assets/img/website/birds.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
-  }
-
-  .left-right {
-    animation-duration: 30s;
-    animation-name: left-right;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-timing-function: linear;
   }
 
   @keyframes left-right {
