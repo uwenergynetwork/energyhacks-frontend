@@ -90,11 +90,11 @@ export default Vue.extend({
 
   @keyframes up-down {
     from {
-      top: 1vh;
+      top: -5vh;
     }
 
     to {
-      top: -1vh;
+      top: -6vh;
     }
   }
 
