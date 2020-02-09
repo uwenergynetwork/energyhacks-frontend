@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
-    <div v-if="show" class="col-md-5 col-sm-12 white text-md-left text-center mt-5">
-      <div class="col-md-8 col-sm-12 mb-3">
+    <div v-if="show" class="col-lg-5 col-md-7 col-sm-12 white text-md-left text-center">
+      <div class="col-lg-8 col-md-10 col-sm-12 mb-3">
         <div>
           <b :class="is_mobile ? 'blue' : ''">Subscribe to our mailing list to receive important announcements!</b>
         </div>
@@ -38,7 +38,7 @@ export default Vue.extend({
   },
   computed: {
     is_mobile() {
-      const isMobile = window.matchMedia("only screen and (max-width: 760px)")
+      const isMobile = window.matchMedia("only screen and (max-width: 992px)")
       return isMobile.matches ? true : false
     }
   },

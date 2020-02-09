@@ -1,6 +1,6 @@
 <template>
   <div class="col-12">
-    <div class="container col-md-8 col-sm-12 mx-auto bk">
+    <div class="container col-lg-8 col-md-12 col-sm-12 mx-auto bk">
         <div class="row justify-content-center">
           <div class="col-12 mt-5 title"><h3><b>How It Works</b></h3></div>
         </div>

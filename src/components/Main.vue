@@ -1,14 +1,19 @@
 <template>
   <div>
     <div class="bg-blue">
+      <div id="cloud-1" class="clouds left-right"></div>
+      <div class="birds left-right"></div>
+      <div id="cloud-2" class="clouds left-right"></div>
+      <div id="cloud-3" class="clouds left-right"></div>
+      <div id="cloud-4" class="clouds left-right"></div>
+      <div ></div>
       <div class="pt-2">
         <NavBar />
         <div class="col-12 row m-0">
-          <Jumbotron class="offset-md-2 my-4 align-self-center" />
+          <Jumbotron class="offset-md-1 offset-lg-2 my-4 align-self-center" />
         </div>
-
         <div class="col-12 valley row m-0">
-          <MailSignup class="my-md-auto pb-5 offset-md-2" />
+          <MailSignup class="my-lg-auto pb-5 offset-md-1 offset-lg-2" />
         </div>
       </div>
     </div>
@@ -84,13 +89,79 @@ export default Vue.extend({
     min-height: 500px;
   }
 
+  .birds {
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url("~@/assets/img/website/birds.svg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+  #cloud-1 {
+    background-image: url("~@/assets/img/website/cloud-1.svg");
+    animation-duration: 50s;
+    animation-delay: -4s;
+    top: 0px; 
+    width: 300px;
+    height: 200px;
+  }
+
+  #cloud-2 {
+    background-image: url("~@/assets/img/website/cloud-4.svg");
+    animation-duration: 70s;
+    animation-delay: -6s;
+    top: 10px; 
+    width: 200px;
+    height: 200px;
+  }
+
+  #cloud-3 {
+    background-image: url("~@/assets/img/website/cloud-3.svg");
+    animation-duration: 50s;
+    animation-delay: -27s;
+    top: 200px; 
+    width: 150px;
+    height: 150px;
+  }
+
+  #cloud-4 {
+    background-image: url("~@/assets/img/website/cloud-2.svg");
+    animation-duration: 75s;
+    animation-direction: reverse;
+    top: 220px; 
+    width: 150px;
+    height: 150px;
+  }
+
+  .clouds {
+    position: absolute;
+    z-index: 0;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+  .left-right {
+    animation-duration: 50s;
+    animation-name: left-right;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+  }
+
   @keyframes left-right {
     from {
-      left: -5vw;
+      left: -300px;
     }
 
     to {
-      left: 105vw;
+      left: 120vw;
     }
   }
 

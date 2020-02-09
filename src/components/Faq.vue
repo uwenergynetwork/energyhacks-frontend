@@ -1,6 +1,6 @@
 <template>
   <div class="col-12">
-    <div class="container col-md-8 col-sm-12 mx-auto pt-5">
+    <div class="container col-lg-8 col-md-11 col-sm-12 mx-auto pt-5">
       <h3><b>FAQ</b></h3>
       <div class="row">
         <faq-question v-for="question in questions" :key=question[0] :question="question[0]" :answer="question[1]" />

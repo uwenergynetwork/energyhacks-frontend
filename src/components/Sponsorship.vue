@@ -4,7 +4,7 @@
     
     <p class="col-sm-10 col-md-6 mx-auto mb-3">We recognize that this event would not be possible without the generous help of our sponsors and in return we aim to provide value back in various forms.</p>
     
-    <div class="row col-md-8 col-12 mx-auto d-flex align-items-stretch justify-content-around">
+    <div class="row col-lg-8 col-md-11 col-12 mx-auto d-flex align-items-stretch justify-content-around">
 
       <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch mb-1 my-md-0">
         <div class="col-12 box px-4 pb-4 box-1 shadow-md">
@@ -31,9 +31,9 @@
       </div>
     </div>
 
-    <p class="col-sm-10 col-md-6 mx-auto mt-5 white">Energy Hacks 2020 will bring forth innovative solutions and ideas to the energy industry. You can help invest in the future of energy by contacting us for more details on sponsorship opportunities and benefits available to you.</p>
+    <p class="col-sm-10 col-md-8 col-lg-6 mx-auto mt-5 white">Energy Hacks 2020 will bring forth innovative solutions and ideas to the energy industry. You can help invest in the future of energy by contacting us for more details on sponsorship opportunities and benefits available to you.</p>
   
-    <button v-on:click="sponsorship" class="col-md-2 col-sm-12 button round white-border mt-md-0 mt-2 bg-light p-1"><b>Become a sponsor</b></button>
+    <button v-on:click="sponsorship" class="col-lg-2 col-md-6 col-sm-12 button round white-border mt-md-0 mt-2 bg-light p-1"><b>Become a sponsor</b></button>
   </div>
 </template>
 

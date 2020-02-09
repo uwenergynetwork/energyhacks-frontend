@@ -12,7 +12,11 @@
     </transition>
 
     <transition name="slide-down">
-      <div v-if="show" id="island" class="d-none d-md-block">
+      <div v-if="show" id="island" class="d-none d-md-block hide-yellow"></div>
+    </transition>
+    <transition name="slide-down">
+      <div class="pulse">
+        <div v-if="show" id="island" class="d-none d-md-block show-yellow"></div>
       </div>
     </transition>
   </div>
@@ -37,21 +41,42 @@ export default Vue.extend({
   h {
     color: #16353A
   }
+
   #island {
     position: absolute;
     top: 0px; left: 33vw;
-    z-index: 1;
     width: 600px;
     height: 600px;
-    background-image: url("~@/assets/img/website/island.svg");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
+  }
+
+  .hide-yellow {
+    z-index: 2;
     animation-duration: 2s;
-    animation-name:  up-down;
+    animation-name: up-down;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    background-image: url("~@/assets/img/website/island-without-yellow.svg");
+  }
+
+  .show-yellow {
+    z-index: 1;
+    animation-duration: 2s;
+    animation-name: up-down;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-image: url("~@/assets/img/website/island-yellow.svg");
+  }
+
+  .pulse {
+    animation-duration: 1s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
   }
 
   .slide-down-enter-active {
@@ -70,6 +95,16 @@ export default Vue.extend({
 
     to {
       top: -1vh;
+    }
+  }
+
+  @keyframes pulse {
+    from {
+      opacity: 0.7;
+    }
+
+    to {
+      opacity: 1;
     }
   }
 
