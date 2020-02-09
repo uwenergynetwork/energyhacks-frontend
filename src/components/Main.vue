@@ -71,6 +71,8 @@ export default Vue.extend({
 
   .bg-blue {
     background-color: #f4ffff;
+    overflow-x: hidden;
+    position: relative;
   }
 
   .bg-gradient {
