@@ -6,19 +6,23 @@
           <h4>CONTACT</h4>
         </div>
         <div class="text-center d-flex justify-content-center">
-          <a href="https://www.facebook.com/UWaterlooEnergyNetwork/" target="_blank">
+          <a
+            href="https://www.facebook.com/UWaterlooEnergyNetwork/"
+            target="_blank"
+            class="footerButton"
+          >
             <div class="svg-scale5050 mx-2 mb-5" id="fbicon-footer"></div>
           </a>
-          <a href="https://www.instagram.com/uwenergynetwork/" target="_blank">
+          <a href="https://www.instagram.com/uwenergynetwork/" target="_blank" class="footerButton">
             <div class="svg-scale5050 mx-2" id="instaicon-footer"></div>
           </a>
-          <a href="mailto:energyhacks@uwen.ca" target="_blank">
+          <a href="mailto:energyhacks@uwen.ca" target="_blank" class="footerButton">
             <div class="svg-scale5050 mx-2" id="mailicon-footer"></div>
           </a>
         </div>
         <div class="text-center d-flex justify-content-center">
           <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
-            <a href>
+            <a href class="footerButton">
               <u>Code of Conduct</u>
             </a>
           </div>
@@ -29,16 +33,16 @@
             v-bind:class="{ nowrap: window.width > 500 }"
           >
             <div>
-              <a href>
+              <a href class="footerButton">
                 <u>Privacy Policy</u>
               </a>
             </div>
             <div class="mt-4 mb-5 nowrap">
-              <a href="https://uwen.ca" target="_blank">© UWEN</a>
+              <a href="https://uwen.ca" target="_blank" class="footerButton">© UWEN</a>
             </div>
           </div>
           <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
-            <a href>
+            <a href class="footerButton">
               <u>Become a Sponsor</u>
             </a>
           </div>
@@ -119,13 +123,13 @@ h4 {
   opacity: 0.5;
 }
 
-a:hover {
-  color: black;
-  opacity: 80%;
+.footerButton:hover {
+  opacity: 0.5;
   text-decoration: none;
+  display: block;
 }
 
-a {
+.footerButton {
   color: white;
 }
 </style>
