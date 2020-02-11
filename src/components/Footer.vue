@@ -22,7 +22,7 @@
         </div>
         <div class="text-center d-flex justify-content-center">
           <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
-            <a href class="footerButton">
+            <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="footerButton">
               <u>Code of Conduct</u>
             </a>
           </div>
