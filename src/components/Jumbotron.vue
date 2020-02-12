@@ -11,14 +11,10 @@
       </div>
     </transition>
 
-    <transition name="slide-down">
-      <div v-if="show" id="island" class="d-none d-md-block hide-yellow"></div>
-    </transition>
-    <transition name="slide-down">
+      <div id="island" class="d-none d-md-block hide-yellow"></div>
       <div class="pulse">
-        <div v-if="show" id="island" class="d-none d-md-block show-yellow"></div>
+        <div id="island" class="d-none d-md-block show-yellow"></div>
       </div>
-    </transition>
   </div>
 </template>
 
@@ -44,7 +40,7 @@ export default Vue.extend({
 
   #island {
     position: absolute;
-    top: 0px; left: 33vw;
+    top: -3vh; left: 33vw;
     width: 600px;
     height: 600px;
     background-position: center bottom;
@@ -55,7 +51,8 @@ export default Vue.extend({
 
   .hide-yellow {
     z-index: 2;
-    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-duration: 10s;
     animation-name: up-down;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -63,48 +60,43 @@ export default Vue.extend({
   }
 
   .show-yellow {
-    z-index: 1;
-    animation-duration: 2s;
+    z-index: 2;
+    animation-delay: 1s;
+    animation-duration: 10s;
     animation-name: up-down;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     background-image: url("~@/assets/img/website/island-yellow.svg");
+    filter: drop-shadow(0 0 30px yellow);
   }
 
   .pulse {
-    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-duration: 2s;
     animation-name: pulse;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
   }
 
-  .slide-down-enter-active {
-    transition: all 1s ease;
-  }
-
-  .slide-down-enter {
-    transform: translateY(-20px);
-    opacity: 0;
-  }
-
   @keyframes up-down {
     from {
-      top: -5vh;
+      top: -40px;
     }
 
     to {
-      top: -6vh;
+      top: -10px;
     }
   }
 
   @keyframes pulse {
     from {
-      opacity: 0.7;
+      opacity: 1;
+      
     }
 
     to {
-      opacity: 1;
+      opacity: 0.2;
     }
   }
 
