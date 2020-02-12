@@ -1,10 +1,22 @@
 <template>
   <div class="col-12 text-center">
-    <h2>Sponsorship Opportunities</h2>
-    
-    <p class="col-sm-10 col-md-6 mx-auto mb-3">We recognize that this event would not be possible without the generous help of our sponsors and in return we aim to provide value back in various forms.</p>
-    
-    <div class="row col-lg-8 col-md-11 col-12 mx-auto d-flex align-items-stretch justify-content-around">
+    <h2>Sponsors</h2>
+
+    <div class="col-lg-8 col-md-10 col-sm-12 mx-auto">
+      <div class="row my-4">
+          <a class="col-12 mx-auto p-3" href="https://faire.com"><img class="col-12" src="@/assets/img/sponsors/faire.svg"></a>
+      </div>
+      <div class="row my-4">
+          <a class="col-lg-12 mx-auto p-3 d-flex align-items-stretch" href="http://td.ca"><img class="col-lg-2 col-3 mx-auto" src="@/assets/img/sponsors/td.svg"></a>
+      </div>
+      <div class="row my-4 d-flex align-items-stretch justify-content-around">
+          <a class="col-4 mx-auto p-0 p-md-3 d-flex align-items-stretch" href="http://do.co/studenthackathon"><img class="col-md-10 col-12 mx-auto" src="@/assets/img/sponsors/digital_ocean.svg"></a>
+          <a class="col-4 mx-auto p-0 p-md-3 d-flex align-items-stretch" href="https://www.voiceflow.com/"><img class="col-md-10 col-12 mx-auto" src="@/assets/img/sponsors/voiceflow.png"></a>
+          <a class="col-4 mx-auto p-0 p-md-3 d-flex align-items-stretch" href="https://www.github.com/"><img class="col-md-10 col-12 mx-auto" src="@/assets/img/sponsors/github.svg"></a>
+      </div>
+    </div>
+        
+    <div class="row col-lg-8 col-md-11 col-12 mx-auto mt-5 d-flex align-items-stretch justify-content-around">
 
       <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch mb-1 my-md-0">
         <div class="col-12 box px-4 pb-4 box-1 shadow-md">
@@ -51,7 +63,7 @@ export default Vue.extend({
 
 <style scoped>
   .box {
-    margin-top: 30%;
+    margin-top: 20%;
     background-color: #F4FFFF;
     border-radius: 0.5vw;
     padding-top: 15%;
