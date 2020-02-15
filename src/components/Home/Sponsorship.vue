@@ -2,22 +2,23 @@
   <div class="col-12 text-center">
     <h2>Sponsors</h2>
 
-    <div class="col-lg-8 col-md-10 col-sm-12 mx-auto">
+    <div class="col-lg-8 col-md-10 col-sm-12 mx-auto pb-5">
       <div class="row my-4">
-          <a class="col-12 mx-auto p-3" href="https://faire.com"><img class="col-12" src="@/assets/img/sponsors/faire.svg"></a>
+          <a class="col-12 mx-auto p-3" target="_blank" href="https://faire.com"><img class="col-12" src="@/assets/img/sponsors/faire.svg"></a>
       </div>
       <div class="row my-4">
-          <a class="col-lg-12 mx-auto p-3 d-flex align-items-stretch" href="http://td.ca"><img class="col-lg-2 col-3 mx-auto" src="@/assets/img/sponsors/td.svg"></a>
+          <a class="col-lg-12 mx-auto p-3 d-flex align-items-stretch" target="_blank" href="http://td.ca"><img class="col-lg-2 col-3 mx-auto" src="@/assets/img/sponsors/td.svg"></a>
       </div>
-      <div class="row my-4 d-flex align-items-stretch justify-content-around">
-          <a class="col-4 mx-auto p-0 p-md-3 d-flex align-items-stretch" href="http://do.co/studenthackathon"><img class="col-md-10 col-12 mx-auto" src="@/assets/img/sponsors/digital_ocean.svg"></a>
-          <a class="col-4 mx-auto p-0 p-md-3 d-flex align-items-stretch" href="https://www.voiceflow.com/"><img class="col-md-10 col-12 mx-auto" src="@/assets/img/sponsors/voiceflow.png"></a>
-          <a class="col-4 mx-auto p-0 p-md-3 d-flex align-items-stretch" href="https://www.github.com/"><img class="col-md-10 col-12 mx-auto" src="@/assets/img/sponsors/github.svg"></a>
+      <div class="col-md-10 col-sm-12 mx-auto row my-4 d-flex align-items-stretch justify-content-around">
+          <a class="col-4 mx-auto p-0 p-md-3 d-flex align-items-stretch" target="_blank" href="http://do.co/studenthackathon"><img class="col-md-10 col-12 mx-auto" src="@/assets/img/sponsors/digital_ocean.svg"></a>
+          <a class="col-4 mx-auto p-0 p-md-3 d-flex align-items-stretch" target="_blank" href="https://www.voiceflow.com/"><img class="col-md-10 col-12 mx-auto" src="@/assets/img/sponsors/voiceflow.png"></a>
+          <a class="col-4 mx-auto p-0 p-md-3 d-flex align-items-stretch" target="_blank" href="https://www.github.com/"><img class="col-md-10 col-12 mx-auto" src="@/assets/img/sponsors/github.svg"></a>
       </div>
     </div>
-        
-    <div class="row col-lg-8 col-md-11 col-12 mx-auto mt-5 d-flex align-items-stretch justify-content-around">
 
+    <h2 class="mt-5">Sponsorship Opportunities</h2>
+        
+    <div class="row col-lg-8 col-md-11 col-12 mx-auto d-flex align-items-stretch justify-content-around">
       <div class="col-sm-12 col-md-4 px-3 d-flex align-items-stretch mb-1 my-md-0">
         <div class="col-12 box px-4 pb-4 box-1 shadow-md">
           <img class="logo" src="@/assets/img/website/network-icon.svg"/>

@@ -1,15 +1,18 @@
 <template>
-  <router-view />
+  <div class="col-12">
+    Apply!
+  </div>
 </template>
 
 <script lang="ts">
-
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "energyhacks"
+  components: {
+    
+  }
 });
 </script>
 
-<style>
+<style scoped>
 </style>

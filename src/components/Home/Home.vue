@@ -45,7 +45,6 @@ import Sponsorship from "./Sponsorship.vue";
 import Footer from "./Footer.vue";
 
 export default Vue.extend({
-  name: "main",
   components: {
     NavBar,
     Jumbotron,

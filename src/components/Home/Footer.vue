@@ -22,7 +22,7 @@
         </div>
         <div class="text-center d-flex justify-content-center">
           <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
-            <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="footerButton">
+            <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="footerButton">
               <u>Code of Conduct</u>
             </a>
           </div>
@@ -33,7 +33,7 @@
             v-bind:class="{ nowrap: window.width > 500 }"
           >
             <div>
-              <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="footerButton">
+              <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="footerButton">
                 <u>Privacy Policy</u>
               </a>
             </div>
@@ -42,7 +42,7 @@
             </div>
           </div>
           <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
-            <a href="mailto:energyhacks@uwen.ca" class="footerButton">
+            <a target="_blank" href="mailto:energyhacks@uwen.ca" class="footerButton">
               <u>Become a Sponsor</u>
             </a>
           </div>

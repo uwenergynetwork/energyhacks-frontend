@@ -56,7 +56,7 @@ export default Vue.extend({
   },
   mounted() {
     this.importAll(
-      require.context("../assets/img/website/slideshow/", true, /\.png$/)
+      require.context("../../assets/img/website/slideshow/", true, /\.png$/)
     );
   },
 
