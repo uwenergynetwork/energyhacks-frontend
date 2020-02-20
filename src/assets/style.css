@@ -11,7 +11,7 @@ body {
 }
 
 .white {
-  color: white
+  color: white;
 }
 
 .round {
@@ -24,7 +24,7 @@ body {
 }
 
 .blue-border {
-  border: 1px solid #16353A;
+  border: 1px solid #16353a;
   background: transparent;
 }
 

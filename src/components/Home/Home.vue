@@ -6,7 +6,6 @@
       <div id="cloud-2" class="clouds left-right"></div>
       <div id="cloud-3" class="clouds left-right"></div>
       <div id="cloud-4" class="clouds left-right"></div>
-      <div ></div>
       <div class="pt-2">
         <NavBar />
         <div class="col-12 row m-0">
@@ -14,6 +13,11 @@
         </div>
         <div class="col-12 valley row m-0">
           <MailSignup class="my-lg-auto pb-5 offset-md-1 offset-lg-2" />
+          <div id="tree-1" class="trees d-none d-md-block"></div>
+          <div id="tree-2" class="trees d-none d-md-block"></div>
+          <div id="tree-3" class="trees d-none d-md-block"></div>
+          <div id="tree-4" class="trees d-none d-md-block"></div>
+          <div id="tree-5" class="trees d-none d-md-block"></div>
         </div>
       </div>
     </div>
@@ -33,33 +37,34 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import NavBar from "./NavBar.vue";
-import Jumbotron from "./Jumbotron.vue";
-import MailSignup from "./MailSignup.vue";
-import Information from "./Information.vue";
-import HowItWorks from "./HowItWorks.vue";
-import Slideshow from "./Slideshow.vue";
-import Faq from "./Faq.vue";
-import Sponsorship from "./Sponsorship.vue";
-import Footer from "./Footer.vue";
+  import Vue from "vue";
+  import NavBar from "./NavBar.vue";
+  import Jumbotron from "./Jumbotron.vue";
+  import MailSignup from "./MailSignup.vue";
+  import Information from "./Information.vue";
+  import HowItWorks from "./HowItWorks.vue";
+  import Slideshow from "./Slideshow.vue";
+  import Faq from "./Faq.vue";
+  import Sponsorship from "./Sponsorship.vue";
+  import Footer from "./Footer.vue";
 
-export default Vue.extend({
-  components: {
-    NavBar,
-    Jumbotron,
-    MailSignup,
-    Information,
-    HowItWorks,
-    Slideshow,
-    Faq,
-    Sponsorship,
-    Footer
-  }
-});
+  export default Vue.extend({
+    components: {
+      NavBar,
+      Jumbotron,
+      MailSignup,
+      Information,
+      HowItWorks,
+      Slideshow,
+      Faq,
+      Sponsorship,
+      Footer
+    }
+  });
 </script>
 
 <style>
+  @import "../../assets/trees.css";
   body::-webkit-scrollbar {
     display: none;
   }
@@ -88,6 +93,7 @@ export default Vue.extend({
     background-repeat: repeat-x;
     background-position: center bottom;
     min-height: 500px;
+    position: relative;
   }
 
   .birds {
@@ -105,36 +111,36 @@ export default Vue.extend({
 
   #cloud-1 {
     background-image: url("~@/assets/img/website/cloud-1.svg");
-    animation-duration: 80s;
+    animation-duration: 50s;
     animation-delay: -4s;
-    top: 0px; 
+    top: 0px;
     width: 300px;
     height: 200px;
   }
 
   #cloud-2 {
     background-image: url("~@/assets/img/website/cloud-4.svg");
-    animation-duration: 100s;
+    animation-duration: 70s;
     animation-delay: -6s;
-    top: 10px; 
+    top: 10px;
     width: 200px;
     height: 200px;
   }
 
   #cloud-3 {
     background-image: url("~@/assets/img/website/cloud-3.svg");
-    animation-duration: 80s;
+    animation-duration: 50s;
     animation-delay: -27s;
-    top: 200px; 
+    top: 200px;
     width: 150px;
     height: 150px;
   }
 
   #cloud-4 {
     background-image: url("~@/assets/img/website/cloud-2.svg");
-    animation-duration: 105s;
+    animation-duration: 75s;
     animation-direction: reverse;
-    top: 220px; 
+    top: 220px;
     width: 150px;
     height: 150px;
   }
@@ -149,7 +155,7 @@ export default Vue.extend({
   }
 
   .left-right {
-    animation-duration: 40s;
+    animation-duration: 50s;
     animation-name: left-right;
     animation-iteration-count: infinite;
     animation-direction: normal;
