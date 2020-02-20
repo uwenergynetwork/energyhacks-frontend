@@ -19,8 +19,8 @@
           :text2="s[4]"
         />
       </div>
-      <div class="d-none d-sm-block" style="height: 20vh"></div>
-      <div style="height: 10vh"></div>
+      <div class="d-none d-sm-block" style="height: 120px"></div>
+      <div style="height: 70px"></div>
     </div>
   </div>
 </template>
