@@ -78,6 +78,15 @@
           <p>As a sponsor, your company brand will be at the center of this joint endeavor. Your branding will be present on any apparel present at the event and center stage on the hackathon’s website along with any promotional material.</p>
         </div>
       </div>
+      <div class="trees tree-1"></div>
+      <div class="trees tree-2"></div>
+      <div class="trees tree-3"></div>
+      <div class="trees tree-4"></div>
+      <div class="trees tree-5"></div>
+      <div class="trees tree-6"></div>
+      <div class="trees tree-7"></div>
+      <div class="trees tree-8"></div>
+      <div class="trees tree-9"></div>
     </div>
 
     <p
@@ -130,5 +139,68 @@ export default Vue.extend({
   top: -50px;
   right: 0;
   left: 0;
+}
+
+.trees {
+  position: absolute;
+  z-index: 0;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.tree-1 {
+  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  position: absolute;
+  top: 102%;
+  right: 103%;
+  width: 40px;
+  height: 40px;
+}
+
+.tree-2 {
+  background-image: url("~@/assets/img/website/tree-blue-2.svg");
+  position: absolute;
+  top: 105%;
+  right: 118%;
+  width: 50px;
+  height: 50px;
+}
+
+.tree-3 {
+  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  position: absolute;
+  top: 93%;
+  right: 114%;
+  width: 40px;
+  height: 40px;
+}
+
+.tree-4 {
+  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  position: absolute;
+  top: 107%;
+  right: -22%;
+  width: 70px;
+  height: 70px;
+}
+
+.tree-5 {
+  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  position: absolute;
+  right: -9%;
+  top: 101%;
+  width: 40px;
+  height: 40px;
+}
+
+.tree-6 {
+  background-image: url("~@/assets/img/website/tree-blue-2.svg");
+  position: absolute;
+  top: 92%;
+  right: -19%;
+  width: 50px;
+  height: 50px;
 }
 </style>
