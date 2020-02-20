@@ -1,6 +1,13 @@
 <template>
   <div class="slideshow-margin">
     <div clas="col-12">
+      <div class="trees tree-1"></div>
+      <div class="trees tree-2"></div>
+      <div class="trees tree-3"></div>
+      <div class="trees tree-4"></div>
+      <div class="trees tree-5"></div>
+      <div class="trees tree-6"></div>
+      <div class="trees tree-7"></div>
       <div class="text-center">
         <h2>
           <b>EnergyHacks 2019</b>
@@ -73,6 +80,7 @@ export default Vue.extend({
 <style scoped>
 .slideshow-margin {
   margin-bottom: 150px;
+  position: relative;
 }
 #slideshow-bg {
   box-sizing: border-box;
@@ -100,5 +108,68 @@ export default Vue.extend({
   position: relative;
   z-index: 1;
   top: 70px;
+}
+
+.trees {
+  position: absolute;
+  z-index: 0;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.tree-1 {
+  background-image: url("~@/assets/img/website/tree-1.svg");
+  position: absolute;
+  top: 107%;
+  right: 85%;
+  width: 40px;
+  height: 40px;
+}
+
+.tree-2 {
+  background-image: url("~@/assets/img/website/tree-2.svg");
+  position: absolute;
+  top: 115%;
+  right: 94%;
+  width: 50px;
+  height: 50px;
+}
+
+.tree-3 {
+  background-image: url("~@/assets/img/website/tree-1.svg");
+  position: absolute;
+  top: 100%;
+  right: 92%;
+  width: 40px;
+  height: 40px;
+}
+
+.tree-4 {
+  background-image: url("~@/assets/img/website/tree-1.svg");
+  position: absolute;
+  top: 117%;
+  right: 1%;
+  width: 70px;
+  height: 70px;
+}
+
+.tree-5 {
+  background-image: url("~@/assets/img/website/tree-1.svg");
+  position: absolute;
+  right: 11%;
+  top: 110%;
+  width: 40px;
+  height: 40px;
+}
+
+.tree-6 {
+  background-image: url("~@/assets/img/website/tree-2.svg");
+  position: absolute;
+  top: 101%;
+  right: 6%;
+  width: 50px;
+  height: 50px;
 }
 </style>
