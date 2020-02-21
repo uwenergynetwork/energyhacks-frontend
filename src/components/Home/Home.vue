@@ -111,7 +111,7 @@
 
   #cloud-1 {
     background-image: url("~@/assets/img/website/cloud-1.svg");
-    animation-duration: 50s;
+    animation-duration: 80s;
     animation-delay: -4s;
     top: 0px;
     width: 300px;
@@ -120,7 +120,7 @@
 
   #cloud-2 {
     background-image: url("~@/assets/img/website/cloud-4.svg");
-    animation-duration: 70s;
+    animation-duration: 100s;
     animation-delay: -6s;
     top: 10px;
     width: 200px;
@@ -129,7 +129,7 @@
 
   #cloud-3 {
     background-image: url("~@/assets/img/website/cloud-3.svg");
-    animation-duration: 50s;
+    animation-duration: 80s;
     animation-delay: -27s;
     top: 200px;
     width: 150px;
@@ -138,7 +138,7 @@
 
   #cloud-4 {
     background-image: url("~@/assets/img/website/cloud-2.svg");
-    animation-duration: 75s;
+    animation-duration: 105s;
     animation-direction: reverse;
     top: 220px;
     width: 150px;
@@ -155,7 +155,7 @@
   }
 
   .left-right {
-    animation-duration: 50s;
+    animation-duration: 40s;
     animation-name: left-right;
     animation-iteration-count: infinite;
     animation-direction: normal;
