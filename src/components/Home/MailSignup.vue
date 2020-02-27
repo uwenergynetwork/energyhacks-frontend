@@ -6,7 +6,7 @@
           <b :class="is_mobile ? 'blue' : ''">Subscribe to our mailing list to receive important announcements!</b>
         </div>
       </div>
-      <div class="col-12 row pb-md-5 mx-0">
+      <div v-if="!subbed && !loading" class="col-12 row pb-md-5 mx-0">
         <input
           type="email"
           v-model="email"
@@ -20,6 +20,15 @@
         >
           <b>Subscribe</b>
         </button>
+        <p v-if="error" class="text-danger mt-2 text-center col-12">{{error}}</p>
+      </div>
+      <div v-if="subbed && !loading" class="col-12 row pb-md-5 mx-0">
+        <p class="text-success mt-2 col-12">Thanks for joining our mailing list!</p>
+      </div>
+      <div v-if="loading" class="mx-auto col-12 text-center">
+        <div class="spinner-border text-secondary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
       </div>
     </div>
   </transition>
@@ -33,7 +42,10 @@ export default Vue.extend({
   data() {
     return {
       email: "",
-      show: false
+      show: false,
+      error: null,
+      loading: false,
+      subbed: false
     };
   },
   computed: {
@@ -47,15 +59,19 @@ export default Vue.extend({
   },
   methods: {
     subscribeEmail: function() {
-      axios
-        .post("https://us-central1-uwenca.cloudfunctions.net/earlyEmailSignup", {
+      var self = this;
+      self.error = null
+      self.loading = true;
+      axios.post("https://us-central1-uwenca.cloudfunctions.net/earlyEmailSignup", {
           email: this.email
         })
         .then(function(response) {
-          console.log(response);
+          self.loading = false;
+          self.subbed = true;
         })
         .catch(function(error) {
-          console.log(error);
+          self.loading = false;
+          self.error = error.response.data;
         });
     }
   }

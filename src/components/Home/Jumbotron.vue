@@ -39,6 +39,7 @@ export default Vue.extend({
   }
 
   #island {
+    pointer-events: none;
     position: absolute;
     top: -3vh; left: 33vw;
     width: 600px;
