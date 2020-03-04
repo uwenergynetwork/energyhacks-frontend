@@ -9,6 +9,7 @@
     <img
       class="col-md-6 img-fluid p-4 my-3 my-md-0"
       :src="getImage(this.pic)"
+      alt="EnergyHacks - UW's sustainability focused hackathon"
     />
   </div>
 </template>

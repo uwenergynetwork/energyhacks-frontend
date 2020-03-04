@@ -40,7 +40,7 @@
             :scrollPerPage="false"
           >
             <slide :key="key" v-for="(image, key) in images" id="slide-style">
-              <img :src="image.pathLong" id="slideshow-img" />
+              <img :src="image.pathLong" id="slideshow-img" alt="EnergyHacks 2019 taking place at the University of Waterloo during the summer term."/>
             </slide>
           </carousel>
         </div>
