@@ -11,14 +11,17 @@
         <ScrollLink href="#faq">FAQ</ScrollLink>
         <ScrollLink href="#sponsor">Sponsors</ScrollLink>
         <div class="w-25 d-flex justify-content-around">
-          <a href="https://www.facebook.com/UWaterlooEnergyNetwork/" target="_blank">
+          <a href="https://www.facebook.com/UWenergyhacks" target="_blank">
             <div class="svg-scale2525" id="fbicon-nav"></div>
           </a>
-          <a href="https://www.instagram.com/uwenergynetwork/" target="_blank">
+          <a href="https://www.instagram.com/energy_hacks/" target="_blank">
             <div class="svg-scale2525" id="instaicon-nav"></div>
           </a>
           <a href="mailto:energyhacks@uwen.ca" target="_blank">
             <div class="svg-scale2525" id="mailicon-nav"></div>
+          </a>
+          <a href="https://twitter.com/energy_hacks" target="_blank">
+            <div class="svg-scale2525" id="twittericon-nav"></div>
           </a>
         </div>
       </div>
@@ -95,5 +98,9 @@ nav {
 
 #mailicon-nav {
   background-image: url("~@/assets/img/website/mail.svg");
+}
+
+#twittericon-nav {
+  background-image: url("~@/assets/img/website/twitter.svg")
 }
 </style>
