@@ -7,22 +7,24 @@
         </div>
         <div class="text-center d-flex justify-content-center">
           <a
-            href="https://www.facebook.com/UWaterlooEnergyNetwork/"
-            target="_blank"
-            class="footerButton"
+            href="https://www.facebook.com/UWenergyhacks"
+            target="_blank"  
           >
             <div class="svg-scale5050 mx-2 mb-5" id="fbicon-footer"></div>
           </a>
-          <a href="https://www.instagram.com/uwenergynetwork/" target="_blank" class="footerButton">
+          <a href="https://www.instagram.com/energy_hacks/" target="_blank">
             <div class="svg-scale5050 mx-2" id="instaicon-footer"></div>
           </a>
-          <a href="mailto:energyhacks@uwen.ca" target="_blank" class="footerButton">
+          <a href="mailto:energyhacks@uwen.ca" target="_blank">
             <div class="svg-scale5050 mx-2" id="mailicon-footer"></div>
           </a>
+          <a href="https://twitter.com/energy_hacks" target="_blank">
+            <div class="svg-scale5050 mx-2" id="twittericon-footer"></div>
+          </a>
         </div>
-        <div class="text-center d-flex justify-content-center">
+        <div class="text-center d-flex justify-content-center text-white">
           <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
-            <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="footerButton">
+            <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
               <u>Code of Conduct</u>
             </a>
           </div>
@@ -33,16 +35,16 @@
             v-bind:class="{ nowrap: window.width > 500 }"
           >
             <div>
-              <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="footerButton">
+              <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
                 <u>Privacy Policy</u>
               </a>
             </div>
             <div class="mt-4 mb-5 nowrap">
-              <a href="https://uwen.ca" target="_blank" class="footerButton">© UWEN</a>
+              <a href="https://uwen.ca" target="_blank">© UWEN</a>
             </div>
           </div>
           <div fluid flex-wrap class="mx-2 px-2" v-bind:class="{ nowrap: window.width > 450 }">
-            <a target="_blank" href="mailto:energyhacks@uwen.ca" class="footerButton">
+            <a target="_blank" href="mailto:energyhacks@uwen.ca">
               <u>Become a Sponsor</u>
             </a>
           </div>
@@ -105,6 +107,12 @@ export default Vue.extend({
   background-size: contain;
 }
 
+#twittericon-footer {
+  background-image: url("~@/assets/img/website/twitterWhite.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 h4 {
   color: white;
 }
@@ -118,18 +126,15 @@ h4 {
   flex-direction: column;
 }
 
-.footer-copyright {
-  background-color: #16353a;
-  opacity: 0.5;
-}
-
-.footerButton:hover {
+a:hover {
   opacity: 0.5;
   text-decoration: none;
   display: block;
+  color:inherit;
 }
 
-.footerButton {
-  color: white;
+a{
+  color: inherit;
 }
+
 </style>
