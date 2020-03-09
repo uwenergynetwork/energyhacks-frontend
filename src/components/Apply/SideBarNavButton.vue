@@ -1,7 +1,7 @@
 <template>
   <a class="row p-2">
     <b class="col-2">{{name}}</b> 
-    <div class="col-10 status">{{completed? "Completed" : "Not Completed"}}</div>
+    <div class="col-10 ml-auto status">{{completed? "Completed" : "Not Completed"}}</div>
   </a>
 </template>
 
@@ -33,15 +33,6 @@ b{
   font-size:0.75em;
 }
 
-/* .example-content-secondary {
-  @include make-col-ready();
 
-  @include media-breakpoint-up(sm) {
-    @include make-col(6);
-  }
-  @include media-breakpoint-up(lg) {
-    @include make-col(4);
-  }
-} */
 
 </style>

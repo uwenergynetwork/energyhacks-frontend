@@ -11,8 +11,14 @@
           ></side-bar-nav-button>
       </div>
     </div>
-    <div class="d-lg-none col-12">
-      SideBar Small
+    <div id="sidebar-small" class="d-lg-none col-12">
+      <div class="row justify-content-center container">
+        <div class="logo-mobile col-1 m-2"></div>
+        <div class="text-center mt-2 text-white">EnergyHacks</div>
+         
+      </div>
+     
+      <progress-bar :steps='steps'></progress-bar>
     </div>
   </div>
 </template>
@@ -20,13 +26,15 @@
 <script lang="ts">
 import Vue from "vue";
 import SideBarNavButton from "./SideBarNavButton.vue";
+import ProgressBar from "./ProgressBar.vue";
 
 export default Vue.extend({
   props: {
     completed: Array
   },
   components:{
-    SideBarNavButton
+    SideBarNavButton,
+    ProgressBar
   },
   data(){
     return {
@@ -45,8 +53,22 @@ export default Vue.extend({
   height: 100vh;
   background-color: #16353A;
 }
+
+#sidebar-small{
+  background-color: #16353A;
+  z-index: -5;
+  width:100%;
+}
 #logo {
   height: 50px;
   width: 50px;
 }
+
+  .logo-mobile {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    background-image: url("~@/assets/img/application/mobileApplyLogo.svg");
+  }
 </style>
