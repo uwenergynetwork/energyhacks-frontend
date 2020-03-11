@@ -37,143 +37,143 @@
 </template>
 
 <script lang="ts">
-  import Vue from "vue";
-  import NavBar from "./NavBar.vue";
-  import Jumbotron from "./Jumbotron.vue";
-  import MailSignup from "./MailSignup.vue";
-  import Information from "./Information.vue";
-  import HowItWorks from "./HowItWorks.vue";
-  import Slideshow from "./Slideshow.vue";
-  import Faq from "./Faq.vue";
-  import Sponsorship from "./Sponsorship.vue";
-  import Footer from "./Footer.vue";
+import Vue from 'vue';
+import NavBar from './NavBar.vue';
+import Jumbotron from './Jumbotron.vue';
+import MailSignup from './MailSignup.vue';
+import Information from './Information.vue';
+import HowItWorks from './HowItWorks.vue';
+import Slideshow from './Slideshow.vue';
+import Faq from './Faq.vue';
+import Sponsorship from './Sponsorship.vue';
+import Footer from './Footer.vue';
 
-  export default Vue.extend({
-    components: {
-      NavBar,
-      Jumbotron,
-      MailSignup,
-      Information,
-      HowItWorks,
-      Slideshow,
-      Faq,
-      Sponsorship,
-      Footer
-    }
-  });
+export default Vue.extend({
+  components: {
+    NavBar,
+    Jumbotron,
+    MailSignup,
+    Information,
+    HowItWorks,
+    Slideshow,
+    Faq,
+    Sponsorship,
+    Footer,
+  },
+});
 </script>
 
 <style>
-  @import "../../assets/trees.css";
-  body::-webkit-scrollbar {
-    display: none;
+@import '../../assets/trees.css';
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+.bg-blue {
+  background-color: #f4ffff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(#88a550, #c4dcdc);
+}
+
+.bg-gradient-2 {
+  background-image: linear-gradient(#c4dcdc, #16353a);
+}
+
+.valley {
+  background-image: url('~@/assets/img/website/background.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  min-height: 500px;
+  position: relative;
+}
+
+.birds {
+  position: absolute;
+  top: 100px;
+  z-index: 0;
+  width: 60px;
+  height: 60px;
+  background-image: url('~@/assets/img/website/birds.svg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+#cloud-1 {
+  background-image: url('~@/assets/img/website/cloud-1.svg');
+  animation-duration: 80s;
+  animation-delay: -4s;
+  top: 0px;
+  width: 300px;
+  height: 200px;
+}
+
+#cloud-2 {
+  background-image: url('~@/assets/img/website/cloud-4.svg');
+  animation-duration: 100s;
+  animation-delay: -6s;
+  top: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+#cloud-3 {
+  background-image: url('~@/assets/img/website/cloud-3.svg');
+  animation-duration: 80s;
+  animation-delay: -27s;
+  top: 200px;
+  width: 150px;
+  height: 150px;
+}
+
+#cloud-4 {
+  background-image: url('~@/assets/img/website/cloud-2.svg');
+  animation-duration: 105s;
+  animation-direction: reverse;
+  top: 220px;
+  width: 150px;
+  height: 150px;
+}
+
+.clouds {
+  position: absolute;
+  z-index: 0;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.left-right {
+  animation-duration: 40s;
+  animation-name: left-right;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes left-right {
+  from {
+    left: -300px;
   }
 
-  body {
-    -ms-overflow-style: none;
+  to {
+    left: 120vw;
   }
+}
 
-  .bg-blue {
-    background-color: #f4ffff;
-    overflow-x: hidden;
-    position: relative;
-  }
-
-  .bg-gradient {
-    background-image: linear-gradient(#88a550, #c4dcdc);
-  }
-
-  .bg-gradient-2 {
-    background-image: linear-gradient(#c4dcdc, #16353a);
-  }
-
-  .valley {
-    background-image: url("~@/assets/img/website/background.png");
-    background-size: contain;
-    background-repeat: repeat-x;
-    background-position: center bottom;
-    min-height: 500px;
-    position: relative;
-  }
-
-  .birds {
-    position: absolute;
-    top: 100px;
-    z-index: 0;
-    width: 60px;
-    height: 60px;
-    background-image: url("~@/assets/img/website/birds.svg");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
-  }
-
-  #cloud-1 {
-    background-image: url("~@/assets/img/website/cloud-1.svg");
-    animation-duration: 80s;
-    animation-delay: -4s;
-    top: 0px;
-    width: 300px;
-    height: 200px;
-  }
-
-  #cloud-2 {
-    background-image: url("~@/assets/img/website/cloud-4.svg");
-    animation-duration: 100s;
-    animation-delay: -6s;
-    top: 10px;
-    width: 200px;
-    height: 200px;
-  }
-
-  #cloud-3 {
-    background-image: url("~@/assets/img/website/cloud-3.svg");
-    animation-duration: 80s;
-    animation-delay: -27s;
-    top: 200px;
-    width: 150px;
-    height: 150px;
-  }
-
-  #cloud-4 {
-    background-image: url("~@/assets/img/website/cloud-2.svg");
-    animation-duration: 105s;
-    animation-direction: reverse;
-    top: 220px;
-    width: 150px;
-    height: 150px;
-  }
-
-  .clouds {
-    position: absolute;
-    z-index: 0;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
-  }
-
-  .left-right {
-    animation-duration: 40s;
-    animation-name: left-right;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-timing-function: linear;
-  }
-
-  @keyframes left-right {
-    from {
-      left: -300px;
-    }
-
-    to {
-      left: 120vw;
-    }
-  }
-
-  MailSignup {
-    position: absolute;
-    bottom: 0;
-  }
+MailSignup {
+  position: absolute;
+  bottom: 0;
+}
 </style>

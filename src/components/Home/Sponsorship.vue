@@ -137,42 +137,42 @@
 </template>
 
 <script lang="ts">
-  import Vue from "vue";
+import Vue from 'vue';
 
-  export default Vue.extend({
-    methods: {
-      sponsorship() {
-        window.open("mailto:energyhacks@uwen.ca");
-      }
-    }
-  });
+export default Vue.extend({
+  methods: {
+    sponsorship() {
+      window.open('mailto:energyhacks@uwen.ca');
+    },
+  },
+});
 </script>
 
 <style scoped>
-  @import "../../assets/trees.css";
-  .box {
-    margin-top: 20%;
-    background-color: #f4ffff;
-    border-radius: 0.5vw;
-    padding-top: 15%;
-    color: #16353a;
-  }
+@import '../../assets/trees.css';
+.box {
+  margin-top: 20%;
+  background-color: #f4ffff;
+  border-radius: 0.5vw;
+  padding-top: 15%;
+  color: #16353a;
+}
 
-  .box-2 {
-    color: #547c83;
-  }
+.box-2 {
+  color: #547c83;
+}
 
-  .box-3 {
-    color: #88a550;
-  }
+.box-3 {
+  color: #88a550;
+}
 
-  .logo {
-    width: 100px;
-    opacity: 1;
-    position: absolute;
-    margin: auto;
-    top: -50px;
-    right: 0;
-    left: 0;
-  }
+.logo {
+  width: 100px;
+  opacity: 1;
+  position: absolute;
+  margin: auto;
+  top: -50px;
+  right: 0;
+  left: 0;
+}
 </style>

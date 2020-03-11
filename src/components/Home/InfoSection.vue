@@ -15,40 +15,40 @@
 </template>
 
 <script lang="ts">
-  import Vue from "vue";
+import Vue from 'vue';
 
-  export default Vue.extend({
-    props: {
-      title: String,
-      desc: String,
-      picOnLeft: Boolean,
-      pic: String
+export default Vue.extend({
+  props: {
+    title: String,
+    desc: String,
+    picOnLeft: Boolean,
+    pic: String,
+  },
+  methods: {
+    getImage(loca: String) {
+      return require(`@/assets/img/website/${loca}`);
     },
-    methods: {
-      getImage(loca: String) {
-        return require(`@/assets/img/website/${loca}`);
-      }
-    }
-  });
+  },
+});
 </script>
 
 <style scoped>
-  @import "../../assets/trees.css";
-  .title {
-    color: white;
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 124%;
-    margin-bottom: 3%;
-  }
+@import '../../assets/trees.css';
+.title {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 124%;
+  margin-bottom: 3%;
+}
 
-  .desc {
-    color: white;
-    font-size: 1.2em;
-    line-height: 28px;
-  }
+.desc {
+  color: white;
+  font-size: 1.2em;
+  line-height: 28px;
+}
 
-  img {
-    box-sizing: border-box;
-  }
+img {
+  box-sizing: border-box;
+}
 </style>
