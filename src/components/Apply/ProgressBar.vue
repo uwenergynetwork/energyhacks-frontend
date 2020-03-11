@@ -6,7 +6,6 @@
     class="col-3 d-flex flex-column">
       <div>{{step.name}}</div>
       <div id="status">
-        <!-- <span class="text-overflow-center">{{step.completed? "Completed" : "Not Completed"}}</span> -->
         {{step.completed? "Completed" : "Not Completed"}}
       </div>
     </li>
@@ -41,54 +40,54 @@ export default Vue.extend({
     padding:0;
   }
 
-.progressbar li:before{
-  content: " ";
-  min-width: 20px;
-  min-height:20px;
-  width: 2vw;
-  height: 2vw;
-  display: block;
-  margin: 5px auto 0.50rem auto;
-  border-radius: 50%;
-  background:#88A550;
-  text-align: center;
-  font-weight: bold;
-}
+  .progressbar li:before{
+    content: " ";
+    min-width: 20px;
+    min-height:20px;
+    width: 2vw;
+    height: 2vw;
+    display: block;
+    margin: 5px auto 0.50rem auto;
+    border-radius: 50%;
+    background:#88A550;
+    text-align: center;
+    font-weight: bold;
+  }
 
-.progressbar li:after{
-  content: '';
-  position: absolute;
-  width:100%;
-  height: 3px;
-  background:#88A550;
-  top: 15px;
-  left:-50%;
-  z-index: -1;
-}
+  .progressbar li:after{
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 3px;
+    background:#88A550;
+    top: 15px;
+    left:-50%;
+    z-index: -1;
+  }
 
-.progressbar li:first-child:after{
-  content: none;
-}
+  .progressbar li:first-child:after{
+    content: none;
+  }
 
-.progressbar li:first-child:before{
-  background: white;
-  border: 3px solid #88A550;
-}
+  .progressbar li:first-child:before{
+    background: white;
+    border: 3px solid #88A550;
+  }
 
-.progressbar li.active + li:after{
-  background:white;
-}
-.progressbar li.active + li:before{
-  background: white;
-  border: 3px solid #88A550;
-}
+  .progressbar li.active + li:after{
+    background:white;
+  }
+  .progressbar li.active + li:before{
+    background: white;
+    border: 3px solid #88A550;
+  }
 
-#status{
-  font-style:italic;
-  font-weight:normal;
-  font-size:0.75em;
-  text-align:center;
-  padding: 0px 10px 0px 10px;
-}
+  #status{
+    font-style:italic;
+    font-weight:normal;
+    font-size:0.75em;
+    text-align:center;
+    padding: 0px 10px 0px 10px;
+  }
 
 </style>
