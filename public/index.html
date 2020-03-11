@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#88a550" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <meta property="og:title" content="EnergyHacks 2020" />
+    <meta property="og:image" content="<%= BASE_URL %>preview.png" />
+    <meta
+      property="og:description"
+      content="EnergyHacks is Canada's largest energy and sustainability focused hackathon that takes place at the University of Waterloo"
+    />
+    <title>EnergyHacks | Canada's Energy-First Hackathon</title>
+    <meta
+      name="description"
+      content="EnergyHacks is Canada's largest energy and sustainability focused hackathon that takes place at the University of Waterloo"
+    />
+    <meta
+      name="keywords"
+      content="Hackathon,University,Waterloo,Energy,Network,Sustainability,Canada"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme-color" content="#88a550">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-  <meta property="og:title" content="EnergyHacks 2020"/>
-  <meta property="og:image" content="<%= BASE_URL %>preview.png"/>
-  <meta property="og:description" content="EnergyHacks is Canada's largest energy and sustainability focused hackathon that takes place at the University of Waterloo"/>
-  <title>EnergyHacks | Canada's Energy-First Hackathon</title>
-  <meta name="description" content="EnergyHacks is Canada's largest energy and sustainability focused hackathon that takes place at the University of Waterloo"/>
-  <meta name="keywords" content="Hackathon,University,Waterloo,Energy,Network,Sustainability,Canada">
-</head>
+  <body>
+    <noscript>
+      <strong
+        >We"re sorry but Energy Hacks doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
 
-<body>
-  <noscript>
-    <strong>We"re sorry but Energy Hacks doesn't work properly without JavaScript enabled. Please enable it to
-      continue.</strong>
-  </noscript>
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
 
-  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
-
-  <script>
-    var firebaseConfig = {
-      apiKey: "AIzaSyDn9r8gNcaH-iB-HZgCXH8erszyxrL8clY",
-      authDomain: "uwenca.firebaseapp.com",
-      databaseURL: "https://uwenca.firebaseio.com",
-      projectId: "uwenca",
-      storageBucket: "uwenca.appspot.com",
-      messagingSenderId: "443501996878",
-      appId: "1:443501996878:web:74d5148adb9f667f338c1f",
-      measurementId: "G-JY1QTXKWJX"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-  </script>
-  <div id="app"></div>
-  <!-- built files will be auto injected -->
-</body>
-
+    <script>
+      var firebaseConfig = {
+        apiKey: 'AIzaSyDn9r8gNcaH-iB-HZgCXH8erszyxrL8clY',
+        authDomain: 'uwenca.firebaseapp.com',
+        databaseURL: 'https://uwenca.firebaseio.com',
+        projectId: 'uwenca',
+        storageBucket: 'uwenca.appspot.com',
+        messagingSenderId: '443501996878',
+        appId: '1:443501996878:web:74d5148adb9f667f338c1f',
+        measurementId: 'G-JY1QTXKWJX',
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>

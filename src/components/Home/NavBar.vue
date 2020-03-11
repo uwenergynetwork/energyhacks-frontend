@@ -30,19 +30,19 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import ScrollLink from "./ScrollLink.vue";
+import Vue from 'vue';
+import ScrollLink from './ScrollLink.vue';
 
 export default Vue.extend({
   components: {
-    ScrollLink
-  }
+    ScrollLink,
+  },
 });
 </script>
 
 <style scoped>
 #logo-nav {
-  background-image: url("~@/assets/img/website/logo.svg");
+  background-image: url('~@/assets/img/website/logo.svg');
   height: 51px;
   width: 51px;
 }
@@ -89,18 +89,18 @@ nav {
 }
 
 #fbicon-nav {
-  background-image: url("~@/assets/img/website/facebook.svg");
+  background-image: url('~@/assets/img/website/facebook.svg');
 }
 
 #instaicon-nav {
-  background-image: url("~@/assets/img/website/insta.svg");
+  background-image: url('~@/assets/img/website/insta.svg');
 }
 
 #mailicon-nav {
-  background-image: url("~@/assets/img/website/mail.svg");
+  background-image: url('~@/assets/img/website/mail.svg');
 }
 
 #twittericon-nav {
-  background-image: url("~@/assets/img/website/twitter.svg")
+  background-image: url('~@/assets/img/website/twitter.svg');
 }
 </style>

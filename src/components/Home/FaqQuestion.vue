@@ -1,12 +1,16 @@
 <template>
   <div class="col-md-6 col-sm-12">
-    <div class="clickable faq-box py-2 px-3 my-2 mx-auto" v-b-toggle="id" @click="visible = !visible">
+    <div
+      class="clickable faq-box py-2 px-3 my-2 mx-auto"
+      v-b-toggle="id"
+      @click="visible = !visible"
+    >
       <div class="col-12 btn d-flex justify-content-between p-0">
         <div>
-            <h5 class="text-left">{{question}}</h5>
+          <h5 class="text-left">{{ question }}</h5>
         </div>
         <div>
-            <h5>{{visible ? "—" : "＋"}}</h5>
+          <h5>{{ visible ? '—' : '＋' }}</h5>
         </div>
       </div>
       <b-collapse :id="id">
@@ -17,41 +21,41 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue';
 
 export default Vue.extend({
   props: {
     question: String,
-    answer: String
+    answer: String,
   },
-  data () {
+  data() {
     return {
-      id: "",
-      visible: false 
-    }
-  }, 
-  mounted () {
-    this.id = Math.round(Math.random() * 1000000).toString()
-  }
+      id: '',
+      visible: false,
+    };
+  },
+  mounted() {
+    this.id = Math.round(Math.random() * 1000000).toString();
+  },
 });
 </script>
 
 <style scoped>
-  h5 {
-    margin-bottom: 0px;
-  }
+h5 {
+  margin-bottom: 0px;
+}
 
-  .faq-box {
-    background: none;
-    border: 2px solid black;
-    border-radius: 10px;
-  }
+.faq-box {
+  background: none;
+  border: 2px solid black;
+  border-radius: 10px;
+}
 
-  button {
-    box-shadow: none;
-  }
+button {
+  box-shadow: none;
+}
 
-  .clickable {
-    cursor: pointer;
-  }
+.clickable {
+  cursor: pointer;
+}
 </style>

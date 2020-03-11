@@ -8,7 +8,7 @@
 }
 
 #tree-1 {
-  background-image: url("~@/assets/img/website/tree-3.svg");
+  background-image: url('~@/assets/img/website/tree-3.svg');
   position: absolute;
   top: 77%;
   right: 95%;
@@ -17,7 +17,7 @@
 }
 
 #tree-2 {
-  background-image: url("~@/assets/img/website/tree-4.svg");
+  background-image: url('~@/assets/img/website/tree-4.svg');
   position: absolute;
   right: 90%;
   top: 88%;
@@ -26,7 +26,7 @@
 }
 
 #tree-3 {
-  background-image: url("~@/assets/img/website/tree-4.svg");
+  background-image: url('~@/assets/img/website/tree-4.svg');
   position: absolute;
   top: 90%;
   right: 59%;
@@ -35,7 +35,7 @@
 }
 
 #tree-4 {
-  background-image: url("~@/assets/img/website/tree-4.svg");
+  background-image: url('~@/assets/img/website/tree-4.svg');
   position: absolute;
   top: 86%;
   right: 4%;
@@ -44,7 +44,7 @@
 }
 
 #tree-5 {
-  background-image: url("~@/assets/img/website/tree-3.svg");
+  background-image: url('~@/assets/img/website/tree-3.svg');
   position: absolute;
   top: 71%;
   right: 0%;
@@ -53,7 +53,7 @@
 }
 
 .tree-1 {
-  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  background-image: url('~@/assets/img/website/tree-blue-1.svg');
   position: absolute;
   top: 102%;
   right: 103%;
@@ -62,7 +62,7 @@
 }
 
 .tree-2 {
-  background-image: url("~@/assets/img/website/tree-blue-2.svg");
+  background-image: url('~@/assets/img/website/tree-blue-2.svg');
   position: absolute;
   top: 105%;
   right: 118%;
@@ -71,7 +71,7 @@
 }
 
 .tree-3 {
-  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  background-image: url('~@/assets/img/website/tree-blue-1.svg');
   position: absolute;
   top: 93%;
   right: 114%;
@@ -80,7 +80,7 @@
 }
 
 .tree-4 {
-  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  background-image: url('~@/assets/img/website/tree-blue-1.svg');
   position: absolute;
   top: 107%;
   right: -22%;
@@ -89,7 +89,7 @@
 }
 
 .tree-5 {
-  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  background-image: url('~@/assets/img/website/tree-blue-1.svg');
   position: absolute;
   right: -9%;
   top: 101%;
@@ -98,7 +98,7 @@
 }
 
 .tree-6 {
-  background-image: url("~@/assets/img/website/tree-blue-2.svg");
+  background-image: url('~@/assets/img/website/tree-blue-2.svg');
   position: absolute;
   top: 92%;
   right: -19%;
@@ -107,7 +107,7 @@
 }
 
 .tree-7 {
-  background-image: url("~@/assets/img/website/tree-1.svg");
+  background-image: url('~@/assets/img/website/tree-1.svg');
   position: absolute;
   top: 107%;
   right: 85%;
@@ -116,7 +116,7 @@
 }
 
 .tree-8 {
-  background-image: url("~@/assets/img/website/tree-2.svg");
+  background-image: url('~@/assets/img/website/tree-2.svg');
   position: absolute;
   top: 115%;
   right: 94%;
@@ -125,7 +125,7 @@
 }
 
 .tree-9 {
-  background-image: url("~@/assets/img/website/tree-1.svg");
+  background-image: url('~@/assets/img/website/tree-1.svg');
   position: absolute;
   top: 100%;
   right: 92%;
@@ -134,7 +134,7 @@
 }
 
 .tree-10 {
-  background-image: url("~@/assets/img/website/tree-1.svg");
+  background-image: url('~@/assets/img/website/tree-1.svg');
   position: absolute;
   top: 117%;
   right: 1%;
@@ -143,7 +143,7 @@
 }
 
 .tree-11 {
-  background-image: url("~@/assets/img/website/tree-1.svg");
+  background-image: url('~@/assets/img/website/tree-1.svg');
   position: absolute;
   right: 11%;
   top: 110%;
@@ -152,7 +152,7 @@
 }
 
 .tree-12 {
-  background-image: url("~@/assets/img/website/tree-2.svg");
+  background-image: url('~@/assets/img/website/tree-2.svg');
   position: absolute;
   top: 101%;
   right: 6%;
@@ -161,7 +161,7 @@
 }
 
 .tree-13 {
-  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  background-image: url('~@/assets/img/website/tree-blue-1.svg');
   position: absolute;
   top: 102%;
   right: 103%;
@@ -170,7 +170,7 @@
 }
 
 .tree-14 {
-  background-image: url("~@/assets/img/website/tree-blue-2.svg");
+  background-image: url('~@/assets/img/website/tree-blue-2.svg');
   position: absolute;
   top: 105%;
   right: 118%;
@@ -179,7 +179,7 @@
 }
 
 .tree-15 {
-  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  background-image: url('~@/assets/img/website/tree-blue-1.svg');
   position: absolute;
   top: 93%;
   right: 114%;
@@ -188,7 +188,7 @@
 }
 
 .tree-16 {
-  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  background-image: url('~@/assets/img/website/tree-blue-1.svg');
   position: absolute;
   top: 107%;
   right: -22%;
@@ -197,7 +197,7 @@
 }
 
 .tree-17 {
-  background-image: url("~@/assets/img/website/tree-blue-1.svg");
+  background-image: url('~@/assets/img/website/tree-blue-1.svg');
   position: absolute;
   right: -9%;
   top: 101%;
@@ -206,7 +206,7 @@
 }
 
 .tree-18 {
-  background-image: url("~@/assets/img/website/tree-blue-2.svg");
+  background-image: url('~@/assets/img/website/tree-blue-2.svg');
   position: absolute;
   top: 92%;
   right: -19%;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap');
 
 html {
   overflow-x: hidden;
@@ -7,7 +7,7 @@ html {
 body {
   overflow-x: hidden;
   width: auto;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .white {
