@@ -8,7 +8,7 @@
           </h3>
         </div>
       </div>
-      <div class="row col-12 mx-auto justify-content-center p-0">
+      <div id="how-it-works" class="row col-12 mx-auto justify-content-center">
         <how-it-works-step
           v-for="s in steps"
           :key="s[0]"
@@ -19,8 +19,6 @@
           :text2="s[4]"
         />
       </div>
-      <div class="d-none d-sm-block" style="height: 120px"></div>
-      <div style="height: 70px"></div>
     </div>
   </div>
 </template>
@@ -64,6 +62,10 @@ export default Vue.extend({
 </script>
 
 <style>
+#how-it-works {
+  padding-bottom: 200px;
+}
+
 .bk {
   border-radius: 15px;
   background-color: #f4ffff;
@@ -71,7 +73,7 @@ export default Vue.extend({
   background-size: contain;
   background-repeat: repeat-x;
   background-position: center bottom;
-  min-height: 55vh;
+  background-size: auto 200px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 

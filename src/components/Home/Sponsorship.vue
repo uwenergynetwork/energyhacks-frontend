@@ -3,14 +3,26 @@
     <h2>Sponsors</h2>
 
     <div class="col-lg-8 col-md-10 col-sm-12 mx-auto pb-5">
-      <div class="row my-4">
+      <div class="row mt-4">
         <a class="col-12 mx-auto p-3" target="_blank" href="https://faire.com">
           <img class="col-12" src="@/assets/img/sponsors/faire.svg" />
         </a>
       </div>
-      <div class="row my-4">
+      <div class="row my-3 p-3">
         <a
-          class="col-lg-12 mx-auto p-3 d-flex align-items-stretch"
+          class="col-lg-12 mx-auto p-0 d-flex align-items-stretch"
+          target="_blank"
+          href="https://www.bullfrogpower.com/"
+        >
+          <img
+            class="col-lg-5 col-6 mx-auto p-0"
+            src="@/assets/img/sponsors/bullfrog_powered.svg"
+          />
+        </a>
+      </div>
+      <div class="row p-2">
+        <a
+          class="col-lg-12 mx-auto p-0 d-flex align-items-stretch"
           target="_blank"
           href="http://td.ca"
         >

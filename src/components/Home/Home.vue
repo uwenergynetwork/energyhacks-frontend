@@ -24,9 +24,9 @@
 
     <div class="bg-gradient pt-5">
       <Information id="about" class="mb-5" />
-      <HowItWorks id="how-it-works" class="mt-5 pt-5" />
+      <HowItWorks id="how-it-works" class="mt-5 pt-5 pb-0" />
       <Slideshow id="slideshow" class="mt-5 pt-5" />
-      <Faq id="faq" class="mt-5" />
+      <Faq id="faq" />
     </div>
 
     <div class="bg-gradient-2 pt-5">
@@ -102,6 +102,7 @@ body {
   z-index: 0;
   width: 60px;
   height: 60px;
+  animation-delay: -6s;
   background-image: url('~@/assets/img/website/birds.svg');
   background-position: center bottom;
   background-repeat: no-repeat;

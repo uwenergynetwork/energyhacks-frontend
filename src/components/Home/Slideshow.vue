@@ -23,12 +23,14 @@
         />
         <div id="carousel">
           <carousel
-            :navigate-to="someLocalProperty"
             :mouse-drag="true"
             :autoplay="true"
-            :paginationPosition="bottom"
+            :paginationPosition="'bottom'"
             :paginationEnabled="true"
-            :perPageCustom="[[320, 1], [1199, 3]]"
+            :perPageCustom="[
+              [320, 1],
+              [1199, 3],
+            ]"
             :loop="true"
             :spacePadding="10"
             :centerMode="true"
