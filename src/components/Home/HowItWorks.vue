@@ -4,7 +4,7 @@
       <div class="row justify-content-center">
         <div class="col-12 mt-5 title">
           <h3>
-            <b>How It Works</b>
+            <b>How It Workssssss</b>
           </h3>
         </div>
       </div>
